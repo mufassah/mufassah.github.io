@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <style>
+ body{
+	background-color:black;
+ }
+ #logo{
+	width:100%
+ }
+  #navMenu{
+	background-color:#ffea00;
+	color:white;
+	padding-top:.5%;
+	padding-bottom:.5%;
+  }
+  li{
+	font-size:14pt;
+  }
+#header{
+	font-size:20pt;
+}
+#logoDiv{
+	margin-top:-2%;
+}
+#testDiv{
+	position:relative;
+	left:83%;
+	width:15%;
+}
+#contain{
+	background-color:yellow;
+}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse" id="navMenu"></nav>
+
+
+<div class="container" id="contain">
+<div id="logoDiv"><img src="heavenlogo.png" id="logo"/></div>
+</div>
+<div id="testDiv"><a class="twitter-timeline" data-height="900" href="https://twitter.com/MufassahTV">Tweets by MufassahTV</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+  <script src="script.js"></script>
+	
+</body>
+</html>
