@@ -1,8 +1,9 @@
+var count = 0;
 $(document).ready(function(){
   document.getElementById("navMenu").innerHTML =
 
 '<div class="navbar-header">' +
- '<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">' +
+ '<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" id="navButton" onclick="hideShow()">' +
         '<span class="icon-bar"></span>' +
         '<span class="icon-bar"></span>' +
         '<span class="icon-bar"></span> ' +
@@ -19,3 +20,10 @@ $(document).ready(function(){
 ;
 })
 
+function hideShow() {
+    if(count%2 ==0)
+      document.getElementById("bg").style.top = "13.85em";
+    else
+      document.getElementById("bg").style.top = "4.11em";
+count++;
+}
