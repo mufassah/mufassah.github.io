@@ -113,9 +113,11 @@
   </style>
 
 
-<script>
+<script type="text/javascript">
+$(window).load(function(){
 $('.menu-toggle').click( function(){
     $(this).find('i').toggleClass('glyphicon-chevron-down').toggleClass('glyphicon-chevron-up');
+});
 });
 </script>
 
@@ -137,7 +139,7 @@ $('.menu-toggle').click( function(){
     <div class="panel-heading news" id="header1">
       <h4 class="panel-title giveMePointer menu-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
       <span>9/20/16 - <b>Welcome to Heaven Clan!</b></span>
-       <i class="glyphicon glyphicon-chevron-down arrow"></i>
+       <i class="glyphicon glyphicon-chevron-up arrow"></i>
       </h4>
     </div>
     <div id="collapse1" class="panel-collapse collapse in">
