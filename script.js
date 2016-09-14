@@ -27,3 +27,4 @@ function hideShow() {
       document.getElementById("bg").style.top = "4.11em";
 count++;
 }
+

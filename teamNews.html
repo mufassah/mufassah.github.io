@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
+   <script src="script.js"></script>
   <style>
  body{
 	background-color:black;
@@ -80,26 +80,74 @@
 	line-height: 44px; 
 }
 #announcement{
+	background-color:black;
 	text-align: center;
 	color: #ffea00;
 	font-size:16pt;
 	}
-  </style>
+.giveMePointer:hover{
+	cursor:pointer;
+	
 }
+.giveMePointer{
+	color: #ffea00;
+	font-size:22pt;
+	background-color:black;
+}
+#accordionWrapper{
+	margin-top:7em;
+	margin-bottom:7em;
+	outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 100px #ffea00;
+}
+.newsPanelHeader{
+	background-color: black;
+}
+#header1{
+	background-color: black;
+}
+.arrow{
+	float:right;
+}
+  </style>
 
+
+<script>
+$('.menu-toggle').click( function(){
+    $(this).find('i').toggleClass('glyphicon-chevron-down').toggleClass('glyphicon-chevron-up');
+});
+</script>
 
 </head>
 <body>
 
-<nav class="navbar navbar-inverse" id="navMenu"></nav>
+<nav class="navbar navbar-inverse" id="navMenu" ></nav>
 
 <div id="testDiv"><a class="twitter-timeline" href="https://twitter.com/HeavenClanTweet">Tweets by HeavenClanTweet</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
 <div class="container" id="contain">
 <div id="logoDiv"><img src="heavenLogo.PNG" id="logo"/></div>
 <h1 id="news"><u>Team News</u></h1>
-	<br><br>
-	<p id="announcement"> We are pleased to announce the official release of the Heaven Clan website! <br /> This is the place to be to stay up to date with everything going on with the team such as events we are hosting, tournaments we are in, and much more!
+
+
+   <div id="accordionWrapper">
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default newsPanelHeader">
+    <div class="panel-heading news" id="header1">
+      <h4 class="panel-title giveMePointer menu-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+      <span>9/20/16 - <b>Welcome to Heaven Clan!</b></span>
+       <i class="glyphicon glyphicon-chevron-down arrow"></i>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body"><p id="announcement"> We are pleased to announce the official release of the Heaven Clan website! <br /> This is the place to be to stay up to date with everything going on with the team such as events we are hosting, tournaments we are in, and much more!</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+	
 <h2 id="cotw">Clip of the week</h2>
 <div id="videoContainer">
 <iframe id="clipOfTheWeek" src="https://www.youtube.com/embed/QniJ5k_Q7dU" frameborder="0" allowfullscreen></iframe>
@@ -107,7 +155,7 @@
 </div>
 
 
-  <script src="script.js"></script>
+ 
 	
 </body>
 </html>
