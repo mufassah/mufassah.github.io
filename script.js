@@ -13,8 +13,8 @@ $(document).ready(function(){
     '<div class="collapse navbar-collapse" id="myNavbar">' +
       '<ul class="nav navbar-nav">' +
         '<li><a href="index.html">Home</a></li>' +
-        '<li><a href="#">Roster</a></li>' +
-        '<li><a href="teamNews.html">Team News</a></li> ' +
+        '<li><a href="roster.html">Roster</a></li>' +
+        '<li><a href="teamNews.html">News</a></li> ' +
       '</ul>' +
     '</div>'
 ;

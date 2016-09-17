@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Heaven - Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <style>
+  body{
+background: url("heavenConcept.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+  #navMenu{
+  background-color:#ffea00;
+  color:white;
+  padding-top:.2em;
+  padding-bottom:.2em;
+  font-style:Sansation;
+
+  }
+  li{
+  font-size:14pt;
+  }
+#header{
+  font-size:20pt;
+  font-style:Sansation;
+}
+.transbox {
+    padding:1em;
+    background: rgba(255, 255, 255, 0.6);
+    float:right;
+    margin-right:2%;
+}
+.imgSelect{
+  opacity: .6;
+  display:inline-block;
+}
+.imgSelect:hover{
+    opacity: 1.0;
+  }
+#content{
+  padding:1em;
+  background: rgba(255, 255, 255, 0.6);
+  font-size:16pt;
+  margin-left:2%;
+}
+h1{
+  text-align:center;
+}
+  </style>
+
+<script type="text/javascript">
+$(document).ready(function(){
+$('.menu-toggle').click( function(){
+    $(this).find('i').toggleClass('glyphicon-chevron-down').toggleClass('glyphicon-chevron-up');
+});
+document.getElementById("content").innerHTML = 
+'<div class="col-md-5"><img src="hayestemp2.jpg" class="img-circle"></div><div class="col-md-1"></div><div class="col-md-6" id="bio"><h1>EliteHayes</h1><p>Leader and co-founder of Heaven Clan. this is a bio<br><br><br>this is a bio<br><br><br><br><br><br>this is a bio</p>';
+});
+
+
+
+</script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse" id="navMenu" ></nav>
+
+<div class="col-md-6" id="content">
+  
+
+</div>
+<div class="transbox">
+    <h1>Meet the Team:</h1> 
+    <div id="moofi"><img class="img-circle imgSelect" src="hayestemp.jpg"><img class="img-circle imgSelect" src="snuggsTemp.jpg">
+    <img class="img-circle imgSelect" src="connTemp.jpg"><img class="img-circle imgSelect" src="mufassah.jpg"></div>
+</div>
+</body>
+</html>
+
