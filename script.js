@@ -8,7 +8,7 @@ $(document).ready(function(){
         '<span class="icon-bar"></span>' +
         '<span class="icon-bar"></span> ' +
       '</button>' +
-      '<a class="navbar-brand" href="#" id="header"><b>Heaven eSports</b></a>' +
+      '<a class="navbar-brand" href="#"><img src="navbarHeaven.jpg" id="header"></a>' +
     '</div>' +
     '<div class="collapse navbar-collapse" id="myNavbar">' +
       '<ul class="nav navbar-nav">' +
@@ -28,3 +28,7 @@ function hideShow() {
 count++;
 }
 
+
+
+
+ 
