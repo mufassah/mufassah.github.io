@@ -23,7 +23,7 @@ $(document).ready(function(){
 
 function hideShow() {
     if(count%2 ==0)
-      document.getElementById("bg").style.top = "13.85em";
+      document.getElementById("bg").style.top = "16.65em";
     else
       document.getElementById("bg").style.top = "4.11em";
 count++;
