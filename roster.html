@@ -37,6 +37,8 @@ background: url("heavenConcept.jpg") no-repeat center center fixed;
     margin-right:2%;
 }
 .imgSelect{
+  max-height: 100px;
+  max-width: 100px;
   opacity: .6;
   display:inline-block;
 }
@@ -46,7 +48,7 @@ background: url("heavenConcept.jpg") no-repeat center center fixed;
 .mainBio{
     width: 100%;
     max-height: 400px;
-    max-width: 400px;
+    max-width: 420px;
 }
 #content{
   padding:1em;
@@ -65,7 +67,7 @@ h1{
   .picCenter{
     display: flex;
     justify-content: center;
-        min-width: 400px;
+    min-width: 420px;
   }
   .playerBox{
     display: flex;
@@ -91,7 +93,7 @@ document.getElementById("content").innerHTML =
 
 function connClick() {
     document.getElementById("content").innerHTML = 
-    '<div class="col-md- 5picCenter"><img src="conn2.jpg" class="img-circle img-responsive mainBio"></div><div class="col-md-1"></div><div class="col-md-6" id="bio"><h1>Con_too_strong</h1><p>My name is Connor and I am 16. I live in San Diego, CA. In my free time I usually play basketball or Destiny ;). At the moment I am trying to grow a Twitch and hopefully that will pan out in the future.</p><br><div class="col-md-6 linkage"><h2>Twitch:</h2><a href="https://twitch.tv/con_too_strong">con_too_strong</a></div><div class="col-md-6 linkage"> <h2>Twitter:</h2><a href="http://twitter.com/con_too_strong">con_too_strong</a></div></div>';
+    '<div class="col-md-5 picCenter"><img src="conn2.jpg" class="img-circle img-responsive mainBio"></div><div class="col-md-1"></div><div class="col-md-6" id="bio"><h1>Con_too_strong</h1><p>My name is Connor and I am 16. I live in San Diego, CA. In my free time I usually play basketball or Destiny ;). At the moment I am trying to grow a Twitch and hopefully that will pan out in the future.</p><br><div class="col-md-6 linkage"><h2>Twitch:</h2><a href="https://twitch.tv/con_too_strong">con_too_strong</a></div><div class="col-md-6 linkage"> <h2>Twitter:</h2><a href="http://twitter.com/con_too_strong">con_too_strong</a></div></div>';
 }
 
 function hayesClick(){
@@ -117,15 +119,15 @@ function snuggsClick(){
 
 function cynClick(){
   document.getElementById("content").innerHTML = 
-    '<div class="col-md-5 picCenter"><img src="cyntemp.jpg" class="img-circle img-responsive"></div><div class="col-md-1"></div><div class="col-md-6" id="bio"><h1>CynKZBH</h1><p class="smallBio">Cinema 4D Designs</p><br><div class="col-md-12 linkage"><h2>Twitter:</h2><a href="https://twitter.com/CynKZBH">CynKZBH</a></div></div>';
+    '<div class="col-md-5 picCenter"><img src="cyntemp.jpg" class="img-circle img-responsive mainBio"></div><div class="col-md-1"></div><div class="col-md-6" id="bio"><h1>CynKZBH</h1><p class="smallBio">Cinema 4D Designs</p><br><div class="col-md-12 linkage"><h2>Twitter:</h2><a href="https://twitter.com/CynKZBH">CynKZBH</a></div></div>';
 }
 function mufassahClick(){
    document.getElementById("content").innerHTML = 
-    '<div class="col-md-5 picCenter"><img src="mufassah.jpg" class="img-circle img-responsive"></div><div class="col-md-1"></div><div class="col-md-6" id="bio"><h1>Mufassah</h1><p class="smallBio">Hello good sirs, my name is Austin but probably better known as Mufassah. I am 22 years old and am a player and the web designer for Heaven Clan. I enjoy the competitive spirit of video games and look forward to what this game and clan can bring to the future of eSports!</p><br><div class="col-md-6 linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/mufassah">Mufassah</a></div><div class="col-md-6 linkage"> <h2>Twitter:</h2><a href="https://twitter.com/MufassahTV">MufassahTV</a></div>';
+    '<div class="col-md-5 picCenter"><img src="mufassahAvi.jpg" class="img-circle img-responsive mainBio"></div><div class="col-md-1"></div><div class="col-md-6" id="bio"><h1>Mufassah</h1><p class="smallBio">Hello good sirs, my name is Austin but probably better known as Mufassah. I am 22 years old and am a player and the web designer for Heaven Clan. I enjoy the competitive spirit of video games and look forward to what this game and clan can bring to the future of eSports!</p><br><div class="col-md-6 linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/mufassah">Mufassah</a></div><div class="col-md-6 linkage"> <h2>Twitter:</h2><a href="https://twitter.com/MufassahTV">MufassahTV</a></div>';
 }
 function zaeClick(){
    document.getElementById("content").innerHTML = 
-    '<div class="col-md-5 picCenter"><img src="hayestemp2.jpg" class="img-circle img-responsive"></div><div class="col-md-1"></div><div class="col-md-6" id="bio"><h1>Zae</h1><p class="smallBio">My name is Jose but you can call me Zae. I am 16 and currently living in Florida. I have been gaming since Halo 3. My goal is to have fun.</p></div>';
+    '<div class="col-md-5 picCenter"><img src="hayestemp2.jpg" class="img-circle img-responsive mainBio"></div><div class="col-md-1"></div><div class="col-md-6" id="bio"><h1>Zae</h1><p class="smallBio">My name is Jose but you can call me Zae. I am 16 and currently living in Florida. I have been gaming since Halo 3. My goal is to have fun.</p></div>';
 }
 
 </script>
@@ -140,7 +142,7 @@ function zaeClick(){
 <div class="transbox displayBox">
     <h1>Meet the Team:</h1> 
     <div id="moofi"><img class="img-circle imgSelect" src="heavenhayes2.jpg" onclick="hayesClick()"><img class="img-circle imgSelect" src="snuggsAvi2.jpg" onclick="snuggsClick()">
-    <img class="img-circle imgSelect" src="connTemp.jpg" id="conn" onclick="connClick()"><img class="img-circle imgSelect" src="mufassah.jpg" onclick="mufassahClick()"><br><img class="img-circle imgSelect" src="legend2.jpg" onclick="legendClick()"><img class="img-circle imgSelect" src="genesis1.jpg" onclick="genesisClick()"><img class="img-circle imgSelect" src="cyntemp2.jpg" onclick="cynClick()"><img class="img-circle imgSelect img-responsive" src="hayestemp.jpg" onclick="zaeClick()"></div>
+    <img class="img-circle imgSelect" src="connTemp.jpg" id="conn" onclick="connClick()"><img class="img-circle imgSelect" src="mufassahAvi.jpg" onclick="mufassahClick()"><br><img class="img-circle imgSelect" src="legend2.jpg" onclick="legendClick()"><img class="img-circle imgSelect" src="genesis1.jpg" onclick="genesisClick()"><img class="img-circle imgSelect" src="cyntemp2.jpg" onclick="cynClick()"><img class="img-circle imgSelect img-responsive" src="hayestemp.JPG" onclick="zaeClick()"></div>
 </div>
 </div>
 </body>
