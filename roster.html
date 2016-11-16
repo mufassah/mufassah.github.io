@@ -48,7 +48,7 @@ background: url("heavenConcept.jpg") no-repeat center center fixed;
 .mainBio{
     width: 100%;
     max-height: 400px;
-    max-width: 420px;
+    max-width: 400px;
 }
 #content{
   padding:1em;
@@ -67,7 +67,8 @@ h1{
   .picCenter{
     display: flex;
     justify-content: center;
-    min-width: 420px;
+    min-width: 100px;
+    min-height: 100px;
   }
   .playerBox{
     display: flex;
@@ -136,14 +137,15 @@ function zaeClick(){
 
 <nav class="navbar navbar-inverse" id="navMenu" ></nav>
 
-<div class="col-md-7 displayBox" id="content">
-</div>
-<div class="playerBox col-md-4.5">
+
+<div class="playerBox">
 <div class="transbox displayBox">
     <h1>Meet the Team:</h1> 
     <div id="moofi"><img class="img-circle imgSelect" src="heavenhayes2.jpg" onclick="hayesClick()"><img class="img-circle imgSelect" src="snuggsAvi2.jpg" onclick="snuggsClick()">
     <img class="img-circle imgSelect" src="connTemp.jpg" id="conn" onclick="connClick()"><img class="img-circle imgSelect" src="mufassahAvi.JPG" onclick="mufassahClick()"><img class="img-circle imgSelect" src="legend2.jpg" onclick="legendClick()"><img class="img-circle imgSelect" src="genesis1.jpg" onclick="genesisClick()"><img class="img-circle imgSelect" src="cyntemp2.jpg" onclick="cynClick()"><img class="img-circle imgSelect img-responsive" src="hayestemp.JPG" onclick="zaeClick()"></div>
 </div>
+</div>
+<div class="transbox displayBox" id="content">
 </div>
 </body>
 </html>
