@@ -49,6 +49,7 @@ background: url("heavenConcept.jpg") no-repeat center center fixed;
     width: 100%;
     max-height: 400px;
     max-width: 400px;
+    object-fit: contain;
 }
 #content{
   padding:1em;
@@ -67,8 +68,7 @@ h1{
   .picCenter{
     display: flex;
     justify-content: center;
-    min-width: 100px;
-    min-height: 100px;
+    
   }
   .playerBox{
     display: flex;
@@ -89,7 +89,7 @@ $('.menu-toggle').click( function(){
 });
 
 document.getElementById("content").innerHTML = 
-'<div class="col-md-5 picCenter"><img src="heavenhayes.jpg" class="img-circle mainBio"></div><div class="col-md-1"></div><div class="col-md-6" id="bio"><h1>EliteHayes</h1><p>My name is Zach and I am a 16 year old from beautiful Vancouver, Canada. I am the leader and founder of Heaven Clan. Stop by and drop a follow and feel free to stay and enjoy my stream! My primary focus is to entertain and interact with my viewers so everybody will have the best experience. Hopefully if you are reading this, I will see you very soon!</p><br><div class="col-md-6 linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/elitehayestv">elitehayestv</a></div><div class="col-md-6 linkage"> <h2>Twitter:</h2><a href="https://twitter.com/elitehayess">elitehayess</a></div>';
+'<div class="col-md-5 picCenter"><img src="heavenhayes.jpg" class="img-circle mainBio img-responsive"></div><div class="col-md-1"></div><div class="col-md-6" id="bio"><h1>EliteHayes</h1><p>My name is Zach and I am a 16 year old from beautiful Vancouver, Canada. I am the leader and founder of Heaven Clan. Stop by and drop a follow and feel free to stay and enjoy my stream! My primary focus is to entertain and interact with my viewers so everybody will have the best experience. Hopefully if you are reading this, I will see you very soon!</p><br><div class="col-md-6 linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/elitehayestv">elitehayestv</a></div><div class="col-md-6 linkage"> <h2>Twitter:</h2><a href="https://twitter.com/elitehayess">elitehayess</a></div>';
 });
 
 function connClick() {
