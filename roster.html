@@ -33,8 +33,6 @@ background: url("heavenConcept.jpg") no-repeat center center fixed;
 .transbox {
     padding:1em;
     background: rgba(255, 255, 255, 0.6);
-    float:right;
-    margin-right:2%;
 }
 .imgSelect{
   max-height: 100px;
@@ -71,6 +69,10 @@ h1{
     
   }
   .playerBox{
+    display: flex;
+    justify-content: center;
+  }
+   .contentBox{
     display: flex;
     justify-content: center;
   }
@@ -130,6 +132,12 @@ function zaeClick(){
    document.getElementById("content").innerHTML = 
     '<div class="col-md-5 picCenter"><img src="hayestemp2.JPG" class="img-circle img-responsive mainBio"></div><div class="col-md-1"></div><div class="col-md-6" id="bio"><h1>Zae</h1><p class="smallBio">My name is Jose but you can call me Zae. I am 16 and currently living in Florida. I have been gaming since Halo 3. My goal is to have fun.</p></div>';
 }
+function misaClick(){
+   document.getElementById("content").innerHTML = 
+    '<div class="col-md-5 picCenter"><img src="qguard.JPG" class="img-circle img-responsive mainBio"></div><div class="col-md-1"></div><div class="col-md-6" id="bio"><h1>MisaOP</h1><p class="smallBio">My name is Misa, I am a 17 year old kid who plays destiny and various other games. I am always making jokes or saying something goofy. </p><br><div class="col-md-6 linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/Mesahh">Mesahh</a></div><div class="col-md-6 linkage"> <h2>Twitter:</h2><a href="https://twitter.com/MisaWombo">MisaWombo</a></div>';
+}
+
+
 
 </script>
 </head>
@@ -142,10 +150,12 @@ function zaeClick(){
 <div class="transbox displayBox">
     <h1>Meet the Team:</h1> 
     <div id="moofi"><img class="img-circle imgSelect" src="heavenhayes2.jpg" onclick="hayesClick()"><img class="img-circle imgSelect" src="snuggsAvi2.jpg" onclick="snuggsClick()">
-    <img class="img-circle imgSelect" src="connTemp.jpg" id="conn" onclick="connClick()"><img class="img-circle imgSelect" src="mufassahAvi.JPG" onclick="mufassahClick()"><img class="img-circle imgSelect" src="legend2.jpg" onclick="legendClick()"><img class="img-circle imgSelect" src="genesis1.jpg" onclick="genesisClick()"><img class="img-circle imgSelect" src="cyntemp2.jpg" onclick="cynClick()"><img class="img-circle imgSelect img-responsive" src="hayestemp.JPG" onclick="zaeClick()"></div>
+    <img class="img-circle imgSelect" src="connTemp.jpg" id="conn" onclick="connClick()"><img class="img-circle imgSelect" src="mufassahAvi.JPG" onclick="mufassahClick()"><img class="img-circle imgSelect" src="legend2.jpg" onclick="legendClick()"><img class="img-circle imgSelect" src="genesis1.jpg" onclick="genesisClick()"><img class="img-circle imgSelect" src="cyntemp2.jpg" onclick="cynClick()"><img class="img-circle imgSelect img-responsive" src="hayestemp.JPG" onclick="zaeClick()"><img class="img-circle imgSelect img-responsive" src="qguard.JPG" onclick="misaClick()"></div>
 </div>
 </div>
+<div class="contentBox">
 <div class="transbox displayBox" id="content">
+</div>
 </div>
 </body>
 </html>
