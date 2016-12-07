@@ -1,0 +1,56 @@
+.quizContain{
+	width:500px;
+	height:500px;
+	background-color: black;
+}
+.myQuiz{
+	height:600px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.carouselP{
+	width: 460px; 
+	height: 345px;
+	background-color: black;
+}
+.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+		width: 70%;
+		margin-auto;
+}
+.carousel-inner > .item > p {
+	width: 70%;
+	margin: auto;
+	background-color: black;
+	height: 345px;
+}
+.answer:hover{
+	background-color: #d9d9d9;
+	color: black;
+}
+.answer{
+	color: white;
+	border-radius: 6px;
+	border: 2px solid white;
+	padding 10px;
+	display: inline-block;
+	font-size: 1.1em;
+	width: 15em;
+	position: relative;
+	margin: 0em 1em 1em 0em;
+}
+.selected{
+	background-color: #d9d9d9;
+	color: black;
+}
+#object-1{
+	background-color: blue;
+}
+.notEnabled:hover{
+	opacity: .1 !important;
+}
+.notEnabled{
+	opacity: .1 !important;
+}

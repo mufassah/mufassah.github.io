@@ -1,0 +1,38 @@
+[
+	{
+		"question": "What is your question my child 1?",
+		"answers": [
+			{"id": 0, "text": "Answer 1"},
+			{"id": 1, "text": "Answer 2"},
+			{"id": 2, "text": "Answer 3"},
+			{"id": 3, "text": "Answer 4"}
+		]	
+	},
+	{
+		"question": "What is your question my child 2?",
+		"answers": [
+			{"id": 0, "text": "Answer 1"},
+			{"id": 1, "text": "Answer 2"},
+			{"id": 2, "text": "Answer 3"},
+			{"id": 3, "text": "Answer 4"}
+		]	
+	},
+	{
+		"question": "What is your question my child 3?",
+		"answers": [
+			{"id": 0, "text": "Answer 1"},
+			{"id": 1, "text": "Answer 2"},
+			{"id": 2, "text": "Answer 3"},
+			{"id": 3, "text": "Answer 4"}
+		]	
+	},
+	{
+		"question": "What is your question my child 4?",
+		"answers": [
+			{"id": 0, "text": "Answer 1"},
+			{"id": 1, "text": "Answer 2"},
+			{"id": 2, "text": "Answer 3"},
+			{"id": 3, "text": "Answer 4"}
+		]	
+	}
+]
