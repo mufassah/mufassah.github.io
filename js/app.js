@@ -2,7 +2,7 @@ var app = angular.module("myApp", ["ngRoute"]);
 app.config(function($routeProvider){
 	$routeProvider
 	.when("/", {
-		templateUrl : "views/index.html"
+		templateUrl : "index.html"
 	})
 	.when("/roster", {
 		templateUrl : "views/roster.html"
@@ -14,7 +14,6 @@ app.config(function($routeProvider){
 		templateUrl : "views/aboutUs.html"
 	})
 	.when("/quiz", {
-		templateUrl: "views/quizz.html",
-		controller: "QuizController"
+		templateUrl: "views/quizz.html"
 	});
 });
