@@ -1,4 +1,4 @@
-app.controller('QuizController', ['$scope', $'$http', function($scope, $http) {
+app.controller('QuizController', ['$scope', '$http', function($scope, $http) {
 	$scope.activeQuestion = 0;
 	$scope.activeQuestionAnswered = 0;
 
