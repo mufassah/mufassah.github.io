@@ -1,0 +1,33 @@
+<div class="container" ng-contoller="QuizController2">
+<br>
+<div id="myCarousel" class="carousel slide" data-interval="false">
+
+<div class="carousel-inner" role="listbox">
+	<div class="item {{ ($index == 0) ? 'active': '' }}"
+		ng-repeat="question in myQuestions">
+		<p ng-attr-id="{{ 'object-' + $index }}"></p>
+		<div class="carousel-caption">
+			<h3>{{ question.question }}</h3>
+			<p
+				class="answer {{ className === 'answer-' + $parent.$index + '-' + $index ? 'selected' : '' }}"
+				ng-repeat="answer in myQuestions[$index].answers"
+				ng-click="enable($parent.$index, $index_">{{ answer.text }}</p>
+			</div>
+			<div
+				class="myButton {{ (className === 'answer-' + qIndex + '-' + aIndex && qIndex < totalQuestions - 1) ? '' : 'notEnabled' }}">
+				<button class="btn" data-target="#myCarousel" role="button"
+					data-slide="next" ng-click="disableMe()">
+					Next Question<span class="glyphicon glyphicon-chevron-right"
+						aria-hidden="true"></span>
+				</button>
+			</div>
+	</div>
+	<div
+		class="myButton {{ (className === 'answer-' + qIndex + '-' + aIndex && qIndex === totalQuestions - 1) ? '' : 'notEnabled' }}">
+		<a class="btn" role="button" ng-click="submit()" href="#quiz2">
+			Submit<span class="glyphicon glyphicon-chevron-right"
+			aria-hidden="true"></span>
+		</a>
+	</div>
+	</div>
+	</div>

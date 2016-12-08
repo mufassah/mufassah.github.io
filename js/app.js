@@ -16,5 +16,9 @@ app.config(function($routeProvider){
 	.when("/quiz", {
 		templateUrl: "views/quizz.html",
 		controller: "QuizController"
+	})
+	.when("/quiz2", {
+		templateUrl: "views/quizz2.html",
+		controller: "QuizController2"
 	});
 });

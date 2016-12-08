@@ -29,6 +29,7 @@
 .answer:hover{
 	background-color: #d9d9d9;
 	color: black;
+	cursor: pointer;
 }
 .answer{
 	color: white;
@@ -45,12 +46,10 @@
 	background-color: #d9d9d9;
 	color: black;
 }
-#object-1{
-	background-color: blue;
-}
-.notEnabled:hover{
-	opacity: .1 !important;
-}
 .notEnabled{
-	opacity: .1 !important;
+	visibility: hidden;
+}
+.myButton{
+	display:flex;
+	justify-content: center;
 }
