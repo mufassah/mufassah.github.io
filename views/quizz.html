@@ -24,10 +24,10 @@
 	</div>
 	<div
 		class="myButton {{ (className === 'answer-' + qIndex + '-' + aIndex && qIndex === totalQuestions - 1) ? '' : 'notEnabled' }}">
-		<button class="btn" role="button" ng-click="submit()" href="{{ totalPoints > 8 ? '#quiz2' : '#' }}">
+		<a class="btn" role="button" ng-click="submit()" href="{{ totalPoints > 8 ? '#quiz2' : '#' }}">
 			Submit<span class="glyphicon glyphicon-chevron-right"
 			aria-hidden="true"></span>
-		</button>
+		</a>
 	</div>
 	</div>
 	</div>
