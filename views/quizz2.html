@@ -11,7 +11,7 @@
 			<p
 				class="answer {{ className === 'answer-' + $parent.$index + '-' + $index ? 'selected' : '' }}"
 				ng-repeat="answer in myQuestions[$index].answers"
-				ng-click="enable($parent.$index, $index_">{{ answer.text }}</p>
+				ng-click="enable($parent.$index, $index)">{{ answer.text }}</p>
 			</div>
 			<div
 				class="myButton {{ (className === 'answer-' + qIndex + '-' + aIndex && qIndex < totalQuestions - 1) ? '' : 'notEnabled' }}">
