@@ -53,3 +53,20 @@
 	display:flex;
 	justify-content: center;
 }
+
+
+/* from original */
+#navMenu{
+	background-color:#ffea00;
+	color:white;
+	padding-top:.2em;
+	padding-bottom:.2em;
+	font-style:Sansation;
+
+  }
+  .nav > li{
+	font-size:14pt;
+  }
+#header{
+  margin-top:-10%;
+}
