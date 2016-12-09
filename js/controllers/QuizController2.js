@@ -1,5 +1,5 @@
 app.controller('QuizController2', ['$scope', '$http', function($scope, $http) {
-	var answerArray = [];
+	$scope.totalPoints = 0;
 	$http.get('js/quiz2_data.json').then(function(quizData){
 	$scope.myQuestions = quizData.data;
 	$scope.totalQuestions = $scope.myQuestions.length;
@@ -13,14 +13,10 @@ app.controller('QuizController2', ['$scope', '$http', function($scope, $http) {
 	};
 	$scope.disableMe = function() {
 		$scope.className = "";
-		answerArray.push($scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points);
+		$scope.totalPoints += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
 	};
 	$scope.submit = function() {
-		answerArray.push($scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points);
-		$scope.totalPoints = 0;
-		for (var i = 0; i < answerArray.length; i++){
-			$scope.totalPoints += answerArray[i];
-		}
+		$scope.totalPoints += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
 		console.log($scope.totalPoints);
 	};
 }]);
