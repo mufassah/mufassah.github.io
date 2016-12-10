@@ -284,3 +284,8 @@ body{
 .call {
 	margin-top: auto;
 }
+.spotlightContain{
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
