@@ -134,6 +134,7 @@ body{
   .picCenter{
     display: flex;
     justify-content: center;
+    margin-top: 5em;
     
   }
   .playerBox{
@@ -148,6 +149,13 @@ body{
   margin-bottom: 2em;
   margin-left: 2em;
   margin-right: 2em;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+}
+.playerSelect{
+	display: flex;
+	justify-content: center;
 }
 
 /* team news */
@@ -268,7 +276,8 @@ body{
 	background: #ffcc00;
 	color: white;
 	text-shadow: 1px 1px 0 #444;
-	font-size: 2em;
+	font-size: 1.7em;
+	text-align: center;
 	font-weight: 100;
 	line-height: 45px;
 	padding-left: 1.2em;
