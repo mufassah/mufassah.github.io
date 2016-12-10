@@ -237,6 +237,7 @@ body{
 	display: -ms-flexbox;
 	display: flex;
 	margin-bottom: 2em;
+	align-items: flex-end;
 }
 .latest {
 	-webkit-flex: 1;
@@ -260,7 +261,7 @@ body{
 	background: #ffcc00;
 	color: white;
 	text-shadow: 1px 1px 0 #444;
-	font-size: 1.25em;
+	font-size: 2em;
 	font-weight: 100;
 	line-height: 45px;
 	padding-left: 1.2em;
