@@ -254,7 +254,7 @@ body{
 	margin-right: 2em;
 	border: 1px solid #999;
 	background-color: white;
-	box-shadow: 0 0 30px #ffcc00
+	box-shadow: 0 0 12px #ffcc00
 }
 .latest:last-child {
 	margin-right: 0;
