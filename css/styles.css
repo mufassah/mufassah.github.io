@@ -201,8 +201,8 @@ body{
 	
 }
 .giveMePointer{
-	color: #ffea00;
-	font-size:22pt;
+	color: #ffea00 !important;
+	font-size:22pt !important;
 	background-color:black;
 }
 #accordionWrapper{
@@ -223,4 +223,10 @@ body{
 }
 .arrow{
 	float:right;
+}
+#logo{
+	width:100%;
+}
+.panel-body{
+	background-color: black;
 }
