@@ -237,7 +237,8 @@ body{
 	display: -ms-flexbox;
 	display: flex;
 	margin-bottom: 2em;
-	flex-grow: 2;
+	height: 100%;
+	align-items: flex-end;
 }
 .latest {
 	-webkit-flex: 1;
@@ -288,11 +289,5 @@ body{
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-flex-flow: column;
-	-ms-flex-flow: column;
-	flex-flow: column;
-	flex-direction: column;
-}
-.emptySpotlight{
-	flex-grow: 1;
+
 }
