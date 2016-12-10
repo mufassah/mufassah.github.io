@@ -1,8 +1,4 @@
 
-
-document.getElementById("content").innerHTML = 
-'<div class="col-md-5 picCenter"><img src="heavenhayes.jpg" class="img-circle mainBio img-responsive"></div><div class="col-md-1"></div><div class="col-md-6" id="bio"><h1>EliteHayes</h1><p>My name is Zach and I am a 16 year old from beautiful Vancouver, Canada. I am the leader and founder of Heaven Clan. Stop by and drop a follow and feel free to stay and enjoy my stream! My primary focus is to entertain and interact with my viewers so everybody will have the best experience. Hopefully if you are reading this, I will see you very soon!</p><br><div class="col-md-6 linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/elitehayestv">elitehayestv</a></div><div class="col-md-6 linkage"> <h2>Twitter:</h2><a href="https://twitter.com/elitehayess">elitehayess</a></div>';
-
 function connClick() {
     document.getElementById("content").innerHTML = 
     '<div class="col-md-5 picCenter"><img src="conn2.jpg" class="img-circle img-responsive mainBio"></div><div class="col-md-1"></div><div class="col-md-6" id="bio"><h1>Con_too_strong</h1><p>My name is Connor and I am 16. I live in San Diego, CA. In my free time I usually play basketball or Destiny ;). At the moment I am trying to grow a Twitch and hopefully that will pan out in the future.</p><br><div class="col-md-6 linkage"><h2>Twitch:</h2><a href="https://twitch.tv/con_too_strong">con_too_strong</a></div><div class="col-md-6 linkage"> <h2>Twitter:</h2><a href="http://twitter.com/con_too_strong">con_too_strong</a></div></div>';
