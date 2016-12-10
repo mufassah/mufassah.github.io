@@ -230,3 +230,22 @@ body{
 .panel-body{
 	background-color: black;
 }
+
+/* gimme panels */
+.spotlight {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.latest {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: column;
+	-ms-flex-flow: column;
+	flex-flow: column;
+	flex-direction: column;
+}
