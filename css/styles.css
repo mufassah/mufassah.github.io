@@ -1,3 +1,12 @@
+/* temp background forever*/
+body{
+	background: url("images/newsBG.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
 .quizContain{
 	width:500px;
 	height:500px;
@@ -69,14 +78,6 @@
   }
 #header{
   margin-top:-10%;
-}
-/*about us*/
-.aboutUsImg{
-background: url("../images/destinyBG.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 .aboutUs{
     background: rgba(255, 255, 255, 0.25);
