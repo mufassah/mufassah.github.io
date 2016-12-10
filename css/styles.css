@@ -6,7 +6,9 @@ body{
   -o-background-size: cover;
   background-size: cover;
  }
-
+.body{
+	width: 90%;
+}
 .quizContain{
 	width:500px;
 	height:500px;
