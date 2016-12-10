@@ -1,4 +1,4 @@
-$(document).ready(function(){
+document.ready(function(){
 $('.menu-toggle').click( function(){
     $(this).find('i').toggleClass('glyphicon-chevron-down').toggleClass('glyphicon-chevron-up');
 });
