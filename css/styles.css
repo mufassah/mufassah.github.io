@@ -8,6 +8,7 @@ body{
  }
 .body{
 	width: 90%;
+	margin: 0 auto;
 }
 .quizContain{
 	width:500px;
@@ -238,12 +239,11 @@ body{
 
 /* gimme panels */
 .spotlight {
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	margin-bottom: 2em;
-	height: 100vh;
-	align-items: flex-end;
+	    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 2em;
+    margin-top: 22em;
 }
 .latest {
 	-webkit-flex: 1;
