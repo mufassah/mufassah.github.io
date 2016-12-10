@@ -236,6 +236,7 @@ body{
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
+	margin-bottom: 2em;
 }
 .latest {
 	-webkit-flex: 1;
@@ -248,4 +249,34 @@ body{
 	-ms-flex-flow: column;
 	flex-flow: column;
 	flex-direction: column;
+	margin-right: 2em;
+	border: 1px solid #999;
+}
+.latest:last-child {
+	margin-right: 0;
+}
+.latest h2 {
+	background: #42659A;
+	color: white;
+	font-size: 1.25em;
+	font-weight: 100;
+	line-height: 45px;
+	padding-left: 1.2em;
+	margin-bottom: 0;
+}
+.latest h3 {
+	font-size: 2em;
+	margin: .4em 0;
+	padding-left: 1.2rem;
+}
+.latest p {
+	font-size: 1em;
+	line-height: 1.6;
+	padding: 0 1.2rem;
+}
+.latest img {
+	width: 100%;
+}
+.call {
+	margin-top: auto;
 }
