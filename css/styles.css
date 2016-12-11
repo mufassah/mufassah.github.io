@@ -1,6 +1,6 @@
 /* temp background forever*/
 body{
-	background-color:black;
+	background-color: black;
 }
 .bg-img{
 	background: url("../images/heavenlogo.jpg") no-repeat center center fixed; 
