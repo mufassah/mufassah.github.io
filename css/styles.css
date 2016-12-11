@@ -107,6 +107,8 @@ body{
   max-width: 100px;
   opacity: .6;
   display:inline-block;
+  border: .25em solid #ffcc00;
+  margin-bottom: .1em;
 }
 .imgSelect:hover{
     opacity: 1.0;
@@ -152,6 +154,10 @@ body{
 	display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    box-shadow: 0 10px 20px #ffea00;
+}
+#circle-box{
+	width: 60%;
 }
 #bio{
     display: flex;
