@@ -1,6 +1,6 @@
 /* temp background forever*/
 body{
-	background-color: red;
+	background-color: black !important;
 }
 .bg-img{
   width:100%;
