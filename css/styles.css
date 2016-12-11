@@ -1,10 +1,14 @@
 /* temp background forever*/
+body{
+	background-color:black;
+}
 .bg-img{
 	background: url("../images/heavenlogo.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width:100%;
  }
 .body{
 	width: 90%;
@@ -251,7 +255,7 @@
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 2em;
-    margin-top: 22em;
+    margin-top: -15em;
 }
 .latest {
 	-webkit-flex: 1;
