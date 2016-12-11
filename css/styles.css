@@ -101,10 +101,7 @@ body{
     font-style: Sansation;
   }
   /* roster */
-  .transbox {
-    padding:1em;
-    background: rgba(255, 255, 255, 0.6);
-}
+
 .imgSelect{
   max-height: 100px;
   max-width: 100px;
@@ -116,7 +113,6 @@ body{
   }
 .mainBio{
     width: 100%;
-    object-fit: contain;
 }
 #content{
   padding:1em;
@@ -127,7 +123,10 @@ body{
   flex-grow: 1;
 }
 .transbox > h1{
-  text-align:center;
+    text-align: center;
+    background-color: #ffcc00;
+    color: #ebebeb;
+    text-shadow: 1px 1px 0 #444;
 }
 .smallBio{
   text-align:center;
@@ -148,22 +147,19 @@ body{
   }
 .displayBox{
   margin-bottom: 2em;
-  margin-left: 2em;
-  margin-right: 2em;
-  display: flex;
-  flex-direction: column;
   margin-top: 2em;
 
 }
 .playerSelect{
 	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 #bio{
     display: flex;
     flex-direction: column;
-
+    border: 1px solid #999;    
+    color: white;
 }
 .links-container{
 	display: flex;
