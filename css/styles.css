@@ -110,7 +110,7 @@ body{
 }
 .imgSelect:hover{
     opacity: 1.0;
-    pointer: cursor;
+    cursor: pointer;
   }
 .mainBio{
     width: 100%;
@@ -128,6 +128,11 @@ body{
     background-color: #ffcc00;
     color: #ebebeb;
     text-shadow: 1px 1px 0 #444;
+    margin-top: 0;
+    line-height: 1.5em;
+}
+.transbox > p{
+	padding: 1em;
 }
 .smallBio{
   text-align:center;
@@ -141,6 +146,7 @@ body{
   .playerBox{
     display: flex;
     justify-content: center;
+    margin-top: 5em;
   }
    .contentBox{
     display: flex;
