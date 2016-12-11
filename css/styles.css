@@ -110,6 +110,7 @@ body{
 }
 .imgSelect:hover{
     opacity: 1.0;
+    pointer: cursor;
   }
 .mainBio{
     width: 100%;
