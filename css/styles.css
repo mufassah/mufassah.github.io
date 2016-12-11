@@ -170,6 +170,8 @@ body{
 	flex-direction: row;
 }
 .bio-p{
+	width: 50%;
+    padding: 1.2em;
 	flex-grow: 1;
 }
 .links-container{
