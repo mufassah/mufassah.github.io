@@ -120,7 +120,6 @@ body{
 }
 #content{
   padding:1em;
-  background: rgba(255, 255, 255, 0.6);
   font-size:16pt;
 }
 .linkage{
@@ -136,7 +135,8 @@ body{
   .picCenter{
     display: flex;
     justify-content: center;
-    
+	margin-bottom: 2em;
+	margin-top: -2em;    
   }
   .playerBox{
     display: flex;
