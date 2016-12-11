@@ -123,25 +123,16 @@ body{
   text-align:center;
   flex-grow: 1;
 }
-.transbox > h1{
-    text-align: center;
-    background-color: #ffcc00;
-    color: #ebebeb;
-    text-shadow: 1px 1px 0 #444;
-    margin-top: 0;
-    line-height: 1.5em;
-}
+
 .transbox > p{
-	padding: .5em;
+	padding: 1em;
 }
 .smallBio{
   text-align:center;
   }
   .picCenter{
     display: flex;
-    justify-content: center;
-	margin-bottom: 2em;
-	margin-top: -2em;    
+    justify-content: center;  
   }
   .playerBox{
     display: flex;
