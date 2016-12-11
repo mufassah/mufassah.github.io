@@ -1,12 +1,12 @@
 
 function connClick() {
     document.getElementById("content").innerHTML = 
-    '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/con-layout.jpg" class="img-responsive mainBio"></div><p>My name is Connor and I am 16. I live in San Diego, CA. In my free time I usually play basketball or Destiny ;). At the moment I am trying to grow a Twitch and hopefully that will pan out in the future.</p><div class="links-container"><div class="linkage"><h2>Twitch:</h2><a href="https://twitch.tv/con_too_strong">con_too_strong</a></div><div class="linkage"> <h2>Twitter:</h2><a href="http://twitter.com/con_too_strong">con_too_strong</a></div></div></div>';
+    '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/con-layout.jpg" class="img-responsive mainBio"></div><div class="bio-div"><div class="bio-p"><p>My name is Connor and I am 16. I live in San Diego, CA. In my free time I usually play basketball or Destiny ;). At the moment I am trying to grow a Twitch and hopefully that will pan out in the future.</p></div><div class="links-container"><div class="linkage"><h2>Twitch:</h2><a href="https://twitch.tv/con_too_strong">con_too_strong</a></div><div class="linkage"> <h2>Twitter:</h2><a href="http://twitter.com/con_too_strong">con_too_strong</a></div></div></div></div>';
 }
 
 function hayesClick(){
  document.getElementById("content").innerHTML = 
-  '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/hayes-layout.jpg" class="mainBio img-responsive"></div><p>My name is Zach and I am a 16 year old from beautiful Vancouver, Canada. I am the leader and founder of Heaven Clan. Stop by and drop a follow and feel free to stay and enjoy my stream! My primary focus is to entertain and interact with my viewers so everybody will have the best experience. Hopefully if you are reading this, I will see you very soon!</p><div class="links-container"><div class="linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/elitehayestv">elitehayestv</a></div><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/elitehayess">elitehayess</a></div></div></div>';
+  '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/hayes-layout.jpg" class="mainBio img-responsive"></div><div class="bio-div"><div class="bio-p"><p>My name is Zach and I am a 16 year old from beautiful Vancouver, Canada. I am the leader and founder of Heaven Clan. Stop by and drop a follow and feel free to stay and enjoy my stream! My primary focus is to entertain and interact with my viewers so everybody will have the best experience. Hopefully if you are reading this, I will see you very soon!</p></div><div class="links-container"><div class="linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/elitehayestv">elitehayestv</a></div><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/elitehayess">elitehayess</a></div></div></div></div>';
 }
 
 function genesisClick(){
@@ -16,7 +16,7 @@ function genesisClick(){
 
 function snuggsClick(){
   document.getElementById("content").innerHTML = 
-    '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/snuggs-layout.jpg" class="img-responsive mainBio"></div><p>Hi, I am Jamie. 25 years old, hopeless Year 1 Destiny player, journalist, Halo veteran, and co-founder of Heaven.</p><div class="links-container"><div class="linkage"><h2>Twitter:</h2><a href="https://twitter.com/Snuggs__">Snuggs__</a></div><div class="linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/snuggs__">Snuggs__</a></div></div></div>';
+    '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/snuggs-layout.jpg" class="img-responsive mainBio"></div><div class="bio-div"><div class="bio-p"><p>Hi, I am Jamie. 25 years old, hopeless Year 1 Destiny player, journalist, Halo veteran, and co-founder of Heaven.</p></div><div class="links-container"><div class="linkage"><h2>Twitter:</h2><a href="https://twitter.com/Snuggs__">Snuggs__</a></div><div class="linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/snuggs__">Snuggs__</a></div></div></div></div>';
 }
 
 function cynClick(){
