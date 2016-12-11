@@ -125,7 +125,17 @@ body{
   text-align:center;
   flex-grow: 1;
 }
-
+.linkage > h2{
+	font-size: 11pt;
+}
+.linkage > a{
+	font-size: 26pt;
+	color: #ffcc00;
+}
+.linkage > a:hover{
+	text-decoration: none;
+	color: #d2d0d1;
+}
 .transbox > p{
 	padding: 1em;
 }
