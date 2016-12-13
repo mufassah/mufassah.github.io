@@ -283,7 +283,26 @@ body{
 .panel-body{
 	background-color: black;
 }
-
+.quiz-item {
+	margin: auto;
+	background-color: black;
+	height: 345px;
+	display: flex;
+	flex-direction: row;
+}
+.image-temp{
+	flex-grow: 2.5;
+	background-color: blue;
+	height:345px;
+}
+.content-temp{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
 /* gimme panels */
 .spotlight {
 	display: -webkit-flex;
