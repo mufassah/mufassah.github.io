@@ -292,7 +292,6 @@ body{
 }
 .image-temp{
 	flex-grow: 2.5;
-	background-color: blue;
 	height:345px;
 }
 .content-temp{
