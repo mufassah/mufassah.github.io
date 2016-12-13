@@ -1,3 +1,14 @@
+<script $(document).ready(function(){
+	$(".answer").click(function(){
+		if ($(".myButton").css("margin-left") == "280px"){
+			$(".myButton").animate({
+				opacity: '1.0',
+				marginLeft: '-=20em'
+			});
+		}
+	});
+});
+</script>
 <div class="body">
 <div class="container" ng-contoller="QuizController">
 <br>
@@ -6,8 +17,9 @@
 <div class="carousel-inner" role="listbox">
 	<div class="item {{ ($index == 0) ? 'active': '' }}"
 		ng-repeat="question in myQuestions">
-		<p ng-attr-id="{{ 'object-' + $index }}"></p>
-		<div class="carousel-caption">
+		<div class="quiz-item">
+		<div class="image-temp"></div>
+		<div class="content-temp">
 			<h3>{{ question.question }}</h3>
 			<p
 				class="answer {{ className === 'answer-' + $parent.$index + '-' + $index ? 'selected' : '' }}"
@@ -15,7 +27,7 @@
 				ng-click="enable($parent.$index, $index)">{{ answer.text }}</p>
 			</div>
 			<div
-				class="myButton {{ (className === 'answer-' + qIndex + '-' + aIndex && qIndex < totalQuestions - 1) ? '' : 'notEnabled' }}">
+				class="myButton" ng-if="(className === 'answer-' + qIndex + '-' + aIndex && qIndex < totalQuestions - 1)">
 				<button class="btn" data-target="#myCarousel" role="button"
 					data-slide="next" ng-click="disableMe()">
 					Next Question<span class="glyphicon glyphicon-chevron-right"
@@ -24,7 +36,7 @@
 			</div>
 	</div>
 	<div
-		class="myButton {{ (className === 'answer-' + qIndex + '-' + aIndex && qIndex === totalQuestions - 1) ? '' : 'notEnabled' }}">
+		class="myButton" ng-if="(className === 'answer-' + qIndex + '-' + aIndex && qIndex === totalQuestions - 1)">
 		<a class="btn" role="button" ng-click="submit()" href="{{ totalPoints > 8 ? '#quiz2' : '#' }}">
 			Submit<span class="glyphicon glyphicon-chevron-right"
 			aria-hidden="true"></span>
