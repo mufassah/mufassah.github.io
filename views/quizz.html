@@ -1,5 +1,7 @@
 <script>
  	console.log($(".myButton").css("margin-left"));
+ 	$(document).ready(function(){
+
 	$(".answer").click(function(){
 		console.log("enter");
 		if ($(".myButton").css("margin-left") == "280px"){
@@ -10,6 +12,7 @@
 			});
 		}
 	});
+});
 </script>
 <div class="body quiz-body">
 <div class="container" ng-contoller="QuizController">
