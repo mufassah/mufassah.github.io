@@ -27,14 +27,17 @@
 				ng-repeat="answer in myQuestions[$index].answers"
 				ng-click="enable($parent.$index, $index)">{{ answer.text }}</p>
 			</div>
-			<div
-				class="myButton" ng-if="(className === 'answer-' + qIndex + '-' + aIndex && qIndex < totalQuestions - 1)">
-				<button class="btn" data-target="#myCarousel" role="button"
-					data-slide="next" ng-click="disableMe()">
-					Next Question<span class="glyphicon glyphicon-chevron-right"
-						aria-hidden="true"></span>
-				</button>
-			</div>
+			
+	</div>
+	
+	</div>
+	<div
+		class="myButton" ng-if="(className === 'answer-' + qIndex + '-' + aIndex && qIndex < totalQuestions - 1)">
+		<button class="btn" data-target="#myCarousel" role="button"
+			data-slide="next" ng-click="disableMe()">
+			Next Question<span class="glyphicon glyphicon-chevron-right"
+			aria-hidden="true"></span>
+		</button>
 	</div>
 	<div
 		class="myButton" ng-if="(className === 'answer-' + qIndex + '-' + aIndex && qIndex === totalQuestions - 1)">
@@ -42,7 +45,6 @@
 			Submit<span class="glyphicon glyphicon-chevron-right"
 			aria-hidden="true"></span>
 		</a>
-	</div>
 	</div>
 	</div>
 	</div>
