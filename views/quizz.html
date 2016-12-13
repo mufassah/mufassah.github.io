@@ -43,9 +43,8 @@
 
 	<script>
  	console.log($(".myButton").css("margin-left"));
- 	$(document).ready(function(){
 
-	$(".answer").click(function(){
+ 	$(document).on('click', '.answer', function(){
 		console.log("enter");
 		if ($(".myButton").css("margin-left") == "280px"){
 			console.log("we made it");
@@ -55,5 +54,4 @@
 			});
 		}
 	});
-});
 </script>
