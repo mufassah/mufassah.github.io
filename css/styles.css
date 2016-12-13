@@ -283,16 +283,24 @@ body{
 .panel-body{
 	background-color: black;
 }
+.quiz-body{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
 .quiz-item {
 	margin: auto;
 	background-color: black;
-	height: 345px;
+	height: 30em;
 	display: flex;
 	flex-direction: row;
 }
 .image-temp{
 	flex-grow: 2.5;
-	height:345px;
+	display: flex;
+}
+.image-temp > img {
+	width: 80%;
 }
 .content-temp{
 	flex-grow: 1;
