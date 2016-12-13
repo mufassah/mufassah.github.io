@@ -6,7 +6,8 @@
 			{"id": 1, "text": "Answer 2", "points": 2},
 			{"id": 2, "text": "Answer 3", "points": 3},
 			{"id": 3, "text": "Answer 4", "points": 4}
-		]	
+		],
+		"image": "warlock.jpg"	
 	},
 	{
 		"question": "What is your question my child 2?",
@@ -15,7 +16,8 @@
 			{"id": 1, "text": "Answer 2", "points": 2},
 			{"id": 2, "text": "Answer 3", "points": 3},
 			{"id": 3, "text": "Answer 4", "points": 4}
-		]	
+		],
+		"image": "titan.jpg"	
 	},
 	{
 		"question": "What is your question my child 3?",
@@ -24,7 +26,8 @@
 			{"id": 1, "text": "Answer 2", "points": 2},
 			{"id": 2, "text": "Answer 3", "points": 3},
 			{"id": 3, "text": "Answer 4", "points": 4}
-		]	
+		],
+		"image": "hunter.jpg"	
 	},
 	{
 		"question": "What is your question my child 4?",
@@ -33,6 +36,17 @@
 			{"id": 1, "text": "Answer 2", "points": 2},
 			{"id": 2, "text": "Answer 3", "points": 3},
 			{"id": 3, "text": "Answer 4", "points": 4}
-		]	
+		],
+		"image": "warlock2.jpg"	
+	},
+	{
+		"question": "What is your question my child 5?",
+		"answers": [
+			{"id": 0, "text": "Answer 1", "points": 1},
+			{"id": 1, "text": "Answer 2", "points": 2},
+			{"id": 2, "text": "Answer 3", "points": 3},
+			{"id": 3, "text": "Answer 4", "points": 4}
+		],
+		"image": "titan2.jpg"	
 	}
 ]
