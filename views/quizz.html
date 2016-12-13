@@ -1,19 +1,4 @@
-<script>
- 	console.log($(".myButton").css("margin-left"));
- 	document.ready(function(){
 
-	$(".answer").click(function(){
-		console.log("enter");
-		if ($(".myButton").css("margin-left") == "280px"){
-			console.log("we made it");
-			$(".myButton").animate({
-				opacity: '1.0',
-				marginLeft: '-=20em'
-			});
-		}
-	});
-});
-</script>
 <div class="body quiz-body">
 <div class="container" ng-contoller="QuizController">
 <br>
@@ -55,3 +40,20 @@
 			aria-hidden="true"></span>
 		</a>
 	</div>
+
+	<script>
+ 	console.log($(".myButton").css("margin-left"));
+ 	$(document).ready(function(){
+
+	$(".answer").click(function(){
+		console.log("enter");
+		if ($(".myButton").css("margin-left") == "280px"){
+			console.log("we made it");
+			$(".myButton").animate({
+				opacity: '1.0',
+				marginLeft: '-=20em'
+			});
+		}
+	});
+});
+</script>
