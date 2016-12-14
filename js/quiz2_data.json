@@ -6,7 +6,8 @@
 			{"id": 1, "text": "Answer 2", "points": 2},
 			{"id": 2, "text": "Answer 3", "points": 3},
 			{"id": 3, "text": "Answer 4", "points": 5}
-		]	
+		],
+		"image": "warlock.jpg"	
 	},
 	{
 		"question": "rawrawrawr?",
@@ -15,7 +16,8 @@
 			{"id": 1, "text": "Answer 2", "points": 2},
 			{"id": 2, "text": "Answer 3", "points": 3},
 			{"id": 3, "text": "Answer 4", "points": 5}
-		]	
+		],
+		"image": "warlock.jpg"	
 	},
 	{
 		"question": "bussyBoiS?",
@@ -24,7 +26,8 @@
 			{"id": 1, "text": "Answer 2", "points": 2},
 			{"id": 2, "text": "Answer 3", "points": 3},
 			{"id": 3, "text": "Answer 4", "points": 5}
-		]	
+		],
+		"image": "warlock.jpg"	
 	},
 	{
 		"question": "memelawd?",
@@ -33,6 +36,17 @@
 			{"id": 1, "text": "Answer 2", "points": 2},
 			{"id": 2, "text": "Answer 3", "points": 3},
 			{"id": 3, "text": "Answer 4", "points": 5}
-		]	
+		],
+		"image": "warlock.jpg"	
+	},
+	{
+		"question": "memelawd?",
+		"answers": [
+			{"id": 0, "text": "Answer 1", "points": 1},
+			{"id": 1, "text": "Answer 2", "points": 2},
+			{"id": 2, "text": "Answer 3", "points": 3},
+			{"id": 3, "text": "Answer 4", "points": 5}
+		],
+		"image": "warlock.jpg"	
 	}
 ]
