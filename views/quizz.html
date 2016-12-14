@@ -35,7 +35,7 @@
 	</div>
 	<div
 		class="myButton" ng-if="(className === 'answer-' + qIndex + '-' + aIndex && qIndex === totalQuestions - 1)">
-		<a class="btn" role="button" ng-click="submit()" href="{{ totalPoints < 5 ? '#' : (totalPoints < 10 ? '#quiz2' : '#aboutUs') }}">
+		<a class="btn" role="button" ng-click="submit()" href="#quiz2">
 			Submit<span class="glyphicon glyphicon-chevron-right"
 			aria-hidden="true"></span>
 		</a>
