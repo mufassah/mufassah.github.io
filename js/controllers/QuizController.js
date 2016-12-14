@@ -18,5 +18,6 @@ app.controller('QuizController', ['$scope', '$http', function($scope, $http) {
 	$scope.submit = function() {
 		$scope.totalPoints = $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
 		console.log($scope.totalPoints);
+		$scope.resultsLink = "#quiz2";
 	};
 }]);
