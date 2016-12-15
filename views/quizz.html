@@ -27,7 +27,7 @@
 	</div>
 	<div
 		class="myButton" ng-if="(className === 'answer-' + qIndex + '-' + aIndex && qIndex < totalQuestions - 1)">
-		<button class="btn btn-warning" data-target="#myCarousel" role="button"
+		<button class="btn btn-warning quiz-btn" data-target="#myCarousel" role="button"
 			data-slide="next" ng-click="disableMe()">
 			Next Question<span class="glyphicon glyphicon-chevron-right"
 			aria-hidden="true"></span>
@@ -35,7 +35,7 @@
 	</div>
 	<div
 		class="myButton" ng-if="(className === 'answer-' + qIndex + '-' + aIndex && qIndex === totalQuestions - 1)">
-		<a class="btn btn-warning" role="button" ng-click="submit()" ng-href="{{ resultsLink }}">
+		<a class="btn btn-warning quiz-btn" role="button" ng-click="submit()" ng-href="{{ resultsLink }}">
 			Submit<span class="glyphicon glyphicon-chevron-right"
 			aria-hidden="true"></span>
 		</a>

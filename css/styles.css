@@ -373,3 +373,6 @@ body{
 	display: flex;
 
 }
+.quiz-btn{
+	font-size: 1.5em;
+}
