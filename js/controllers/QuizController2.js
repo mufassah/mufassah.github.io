@@ -18,5 +18,11 @@ app.controller('QuizController2', ['$scope', '$http', function($scope, $http) {
 	$scope.submit = function() {
 		$scope.totalPoints += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
 		console.log($scope.totalPoints);
+		if($scope.totalPoints < 8)
+			$scope.resultsLink = "#aboutUs";
+		else if($scope.totalPoints < 15)
+			$scope.resultsLink = "#roster";
+		else
+			$scope.resultsLink = "#quiz2";
 	};
 }]);
