@@ -21,5 +21,13 @@ app.config(function($routeProvider){
 	.when("/quiz2", {
 		templateUrl: "views/quizz2.html",
 		controller: "QuizController2"
+	})
+	.when("/quiz3", {
+		templateUrl: "views/quizz3.html",
+		controller: "QuizController3"
+	})
+	.when("/quiz4", {
+		templateUrl: "views/quizz4.html",
+		controller: "QuizController4"
 	});
 });
