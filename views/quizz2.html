@@ -39,7 +39,6 @@
 			aria-hidden="true"></span>
 		</a>
 	</div>
-	<p>{{totalPoints}}</p>
 	<script>
  	console.log($(".myButton").css("margin-left"));
 
@@ -47,7 +46,7 @@
 		if ($(".myButton").css("margin-left") == "280px"){
 			$(".myButton").animate({
 				opacity: '1.0',
-				marginLeft: '-=20em'
+				left: '-=20em'
 			});
 		}
 	});
