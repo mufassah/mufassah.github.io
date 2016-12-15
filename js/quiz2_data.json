@@ -7,7 +7,7 @@
 			{"id": 2, "text": "Answer 3", "points": 3},
 			{"id": 3, "text": "Answer 4", "points": 5}
 		],
-		"image": "warlock.jpg"	
+		"image": "nightstalker.jpg"	
 	},
 	{
 		"question": "rawrawrawr?",
@@ -17,7 +17,7 @@
 			{"id": 2, "text": "Answer 3", "points": 3},
 			{"id": 3, "text": "Answer 4", "points": 5}
 		],
-		"image": "warlock.jpg"	
+		"image": "stormcaller2.jpg"	
 	},
 	{
 		"question": "bussyBoiS?",
@@ -27,7 +27,7 @@
 			{"id": 2, "text": "Answer 3", "points": 3},
 			{"id": 3, "text": "Answer 4", "points": 5}
 		],
-		"image": "warlock.jpg"	
+		"image": "voidwalker.jpg"	
 	},
 	{
 		"question": "memelawd?",
@@ -37,7 +37,7 @@
 			{"id": 2, "text": "Answer 3", "points": 3},
 			{"id": 3, "text": "Answer 4", "points": 5}
 		],
-		"image": "warlock.jpg"	
+		"image": "sunbreaker.jpg"	
 	},
 	{
 		"question": "memelawd?",
@@ -47,6 +47,6 @@
 			{"id": 2, "text": "Answer 3", "points": 3},
 			{"id": 3, "text": "Answer 4", "points": 5}
 		],
-		"image": "warlock.jpg"	
+		"image": "gunslinger.jpg"	
 	}
 ]
