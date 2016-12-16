@@ -5,7 +5,7 @@
 			{"id": 0, "text": "Answer 1", "points": 1},
 			{"id": 1, "text": "Answer 2", "points": 2},
 			{"id": 2, "text": "Answer 3", "points": 3},
-			{"id": 3, "text": "Answer 4", "points": 5}
+			{"id": 3, "text": "Leave it to the Architects", "points": 5}
 		],
 		"image": "nightstalker.jpg"	
 	},
@@ -15,7 +15,7 @@
 			{"id": 0, "text": "Answer 1", "points": 1},
 			{"id": 1, "text": "Answer 2", "points": 2},
 			{"id": 2, "text": "Answer 3", "points": 3},
-			{"id": 3, "text": "Answer 4", "points": 5}
+			{"id": 3, "text": "Leave it to the Architects", "points": 5}
 		],
 		"image": "stormcaller2.jpg"	
 	},
@@ -25,7 +25,7 @@
 			{"id": 0, "text": "Answer 1", "points": 1},
 			{"id": 1, "text": "Answer 2", "points": 2},
 			{"id": 2, "text": "Answer 3", "points": 3},
-			{"id": 3, "text": "Answer 4", "points": 5}
+			{"id": 3, "text": "Leave it to the Architects", "points": 5}
 		],
 		"image": "voidwalker.jpg"	
 	},
@@ -35,7 +35,7 @@
 			{"id": 0, "text": "Answer 1", "points": 1},
 			{"id": 1, "text": "Answer 2", "points": 2},
 			{"id": 2, "text": "Answer 3", "points": 3},
-			{"id": 3, "text": "Answer 4", "points": 5}
+			{"id": 3, "text": "Leave it to the Architects", "points": 5}
 		],
 		"image": "sunbreaker.jpg"	
 	},
@@ -45,7 +45,7 @@
 			{"id": 0, "text": "Answer 1", "points": 1},
 			{"id": 1, "text": "Answer 2", "points": 2},
 			{"id": 2, "text": "Answer 3", "points": 3},
-			{"id": 3, "text": "Answer 4", "points": 5}
+			{"id": 3, "text": "Leave it to the Architects", "points": 5}
 		],
 		"image": "gunslinger.jpg"	
 	}
