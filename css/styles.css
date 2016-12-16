@@ -299,10 +299,7 @@ body{
 	flex-direction: row;
 }
 .image-temp{
-	flex-grow: 2;
-    /* display: flex; */
-    height: 100%;
-    width: 100%;
+	flex-grow: 3;
     background-image: url(../images/nightstalker.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
