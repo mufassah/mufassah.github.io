@@ -286,10 +286,8 @@ body{
 	background-color: black;
 }
 .quiz-body{
-	display:flex;
-	align-items: center;
-	justify-content: center;
-	height: 90vh;
+	margin-top: 12em;
+    height: 70vh;
 }
 .quiz-item {
 	margin: auto;
