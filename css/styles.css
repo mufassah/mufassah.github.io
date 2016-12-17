@@ -300,7 +300,7 @@ body{
 }
 .image-temp{
 	flex-grow: 3;
-    
+    background-image: url(../images/nightstalker.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     text-align: center;
