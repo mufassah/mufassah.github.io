@@ -1,51 +1,31 @@
 [
 	{
-		"question": "Which best describes you?",
+		"question": "Which method is most satisfying to deal with your enemies?",
 		"answers": [
-			{"id": 0, "text": "Someone that looks to protect others at all costs through strength, sacrifice, and mercilessness", "points": 1},
-			{"id": 1, "text": "Someone that dedicates their time and resources to learning and understanding true power", "points": 2},
-			{"id": 2, "text": "A lone wolf that aims to make their own luck and take that big risk for the big reward", "points": 3},
+			{"id": 0, "text": "Burning and destroying them to nothing", "points": 1},
+			{"id": 1, "text": "Torment them with the nightmare of the void", "points": 2},
+			{"id": 2, "text": "Zap them with lightening", "points": 3},
+			{"id": 3, "text": "Irrelevant. The Architects' power is above all", "points": 4}
+		],
+		"image": "subclass-image.jpg"	
+	},
+	{
+		"question": "Which compliments your playstyle best?",
+		"answers": [
+			{"id": 0, "text": "Abilities that offer quick regeneration and ways to lock down high priority areas", "points": 1},
+			{"id": 1, "text": "Strong melee with high damage and range complimented with aoe electric abilities", "points": 2},
+			{"id": 2, "text": "Powerful grenades that offer high dps and abilites that offer both shields and higher dps", "points": 3},
 			{"id": 3, "text": "The Architects know me best", "points": 4}
 		],
 		"image": "subclass-image.jpg"	
 	},
 	{
-		"question": "Which best describes you?",
+		"question": "Which role fits you best in your team?",
 		"answers": [
-			{"id": 0, "text": "Someone that looks to protect others at all costs through strength, sacrifice, and mercilessness", "points": 1},
-			{"id": 1, "text": "Someone that dedicates their time and resources to learning and understanding true power", "points": 2},
-			{"id": 2, "text": "A lone wolf that aims to make their own luck and take that big risk for the big reward", "points": 3},
-			{"id": 3, "text": "The Architects know me best", "points": 4}
-		],
-		"image": "subclass-image.jpg"	
-	},
-	{
-		"question": "Which best describes you?",
-		"answers": [
-			{"id": 0, "text": "Someone that looks to protect others at all costs through strength, sacrifice, and mercilessness", "points": 1},
-			{"id": 1, "text": "Someone that dedicates their time and resources to learning and understanding true power", "points": 2},
-			{"id": 2, "text": "A lone wolf that aims to make their own luck and take that big risk for the big reward", "points": 3},
-			{"id": 3, "text": "The Architects know me best", "points": 4}
-		],
-		"image": "subclass-image.jpg"	
-	},
-	{
-		"question": "Which best describes you?",
-		"answers": [
-			{"id": 0, "text": "Someone that looks to protect others at all costs through strength, sacrifice, and mercilessness", "points": 1},
-			{"id": 1, "text": "Someone that dedicates their time and resources to learning and understanding true power", "points": 2},
-			{"id": 2, "text": "A lone wolf that aims to make their own luck and take that big risk for the big reward", "points": 3},
-			{"id": 3, "text": "The Architects know me best", "points": 4}
-		],
-		"image": "subclass-image.jpg"	
-	},
-	{
-		"question": "Which best describes you?",
-		"answers": [
-			{"id": 0, "text": "Someone that looks to protect others at all costs through strength, sacrifice, and mercilessness", "points": 1},
-			{"id": 1, "text": "Someone that dedicates their time and resources to learning and understanding true power", "points": 2},
-			{"id": 2, "text": "A lone wolf that aims to make their own luck and take that big risk for the big reward", "points": 3},
-			{"id": 3, "text": "The Architects know me best", "points": 4}
+			{"id": 0, "text": "Very aggressive slayer that looks to put up high kill counts and chain kills together", "points": 1},
+			{"id": 1, "text": "More passive play offering cover-fire and support for the rest of the squad", "points": 2},
+			{"id": 2, "text": "Aim for more of a hybrid style that can fit in to a number of situations and team comps", "points": 3},
+			{"id": 3, "text": "I succumb to the will of the Architects", "points": 4}
 		],
 		"image": "subclass-image.jpg"	
 	}
