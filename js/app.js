@@ -1,13 +1,4 @@
-var app = angular.module("myApp", ["ngRoute"])
-.directive('backImg', function(){
-	return function(scope, element, attrs){
-		var url = .backImg;
-		element.css({
-			'background-image': 'url(' + url + ')'
-		});
-	};
-});
-;
+var app = angular.module("myApp", ["ngRoute"]);
 app.config(function($routeProvider){
 	$routeProvider
 	.when("/", {
