@@ -7,7 +7,7 @@
 	<div class="item {{ ($index == 0) ? 'active': '' }}"
 		ng-repeat="question in myQuestions">
 		<div class="quiz-item">
-		<div class="image-temp"></div>
+		<div class="image-temp" style="background-image: url(../images/{{question.image}})"></div>
 		<div class="content-temp">
 			<h3>{{ question.question }}</h3>
 			<p
