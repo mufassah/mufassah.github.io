@@ -1,52 +1,52 @@
 [
 	{
-		"question": "HehE xD?",
+		"question": "Which best describes you?",
 		"answers": [
-			{"id": 0, "text": "Answer 1", "points": 1},
-			{"id": 1, "text": "Answer 2", "points": 2},
-			{"id": 2, "text": "Answer 3", "points": 3},
-			{"id": 3, "text": "Answer 4", "points": 5}
+			{"id": 0, "text": "Someone that looks to protect others at all costs through strength, sacrifice, and mercilessness", "points": 1},
+			{"id": 1, "text": "Someone that dedicates their time and resources to learning and understanding true power", "points": 2},
+			{"id": 2, "text": "A lone wolf that aims to make their own luck and take that big risk for the big reward", "points": 3},
+			{"id": 3, "text": "The Architects know me best", "points": 4}
 		],
-		"image": "nightstalker.jpg"	
+		"image": "subclass-image.jpg"	
 	},
 	{
-		"question": "rawrawrawr?",
+		"question": "Which best describes you?",
 		"answers": [
-			{"id": 0, "text": "Answer 1", "points": 1},
-			{"id": 1, "text": "Answer 2", "points": 2},
-			{"id": 2, "text": "Answer 3", "points": 3},
-			{"id": 3, "text": "Answer 4", "points": 5}
+			{"id": 0, "text": "Someone that looks to protect others at all costs through strength, sacrifice, and mercilessness", "points": 1},
+			{"id": 1, "text": "Someone that dedicates their time and resources to learning and understanding true power", "points": 2},
+			{"id": 2, "text": "A lone wolf that aims to make their own luck and take that big risk for the big reward", "points": 3},
+			{"id": 3, "text": "The Architects know me best", "points": 4}
 		],
-		"image": "stormcaller2.jpg"	
+		"image": "subclass-image.jpg"	
 	},
 	{
-		"question": "bussyBoiS?",
+		"question": "Which best describes you?",
 		"answers": [
-			{"id": 0, "text": "Answer 1", "points": 1},
-			{"id": 1, "text": "Answer 2", "points": 2},
-			{"id": 2, "text": "Answer 3", "points": 3},
-			{"id": 3, "text": "Answer 4", "points": 5}
+			{"id": 0, "text": "Someone that looks to protect others at all costs through strength, sacrifice, and mercilessness", "points": 1},
+			{"id": 1, "text": "Someone that dedicates their time and resources to learning and understanding true power", "points": 2},
+			{"id": 2, "text": "A lone wolf that aims to make their own luck and take that big risk for the big reward", "points": 3},
+			{"id": 3, "text": "The Architects know me best", "points": 4}
 		],
-		"image": "voidwalker.jpg"	
+		"image": "subclass-image.jpg"	
 	},
 	{
-		"question": "memelawd?",
+		"question": "Which best describes you?",
 		"answers": [
-			{"id": 0, "text": "Answer 1", "points": 1},
-			{"id": 1, "text": "Answer 2", "points": 2},
-			{"id": 2, "text": "Answer 3", "points": 3},
-			{"id": 3, "text": "Answer 4", "points": 5}
+			{"id": 0, "text": "Someone that looks to protect others at all costs through strength, sacrifice, and mercilessness", "points": 1},
+			{"id": 1, "text": "Someone that dedicates their time and resources to learning and understanding true power", "points": 2},
+			{"id": 2, "text": "A lone wolf that aims to make their own luck and take that big risk for the big reward", "points": 3},
+			{"id": 3, "text": "The Architects know me best", "points": 4}
 		],
-		"image": "sunbreaker.jpg"	
+		"image": "subclass-image.jpg"	
 	},
 	{
-		"question": "memelawd?",
+		"question": "Which best describes you?",
 		"answers": [
-			{"id": 0, "text": "Answer 1", "points": 1},
-			{"id": 1, "text": "Answer 2", "points": 2},
-			{"id": 2, "text": "Answer 3", "points": 3},
-			{"id": 3, "text": "Leave it to the Architects", "points": 5}
+			{"id": 0, "text": "Someone that looks to protect others at all costs through strength, sacrifice, and mercilessness", "points": 1},
+			{"id": 1, "text": "Someone that dedicates their time and resources to learning and understanding true power", "points": 2},
+			{"id": 2, "text": "A lone wolf that aims to make their own luck and take that big risk for the big reward", "points": 3},
+			{"id": 3, "text": "The Architects know me best", "points": 4}
 		],
-		"image": "gunslinger.jpg"	
+		"image": "subclass-image.jpg"	
 	}
 ]
