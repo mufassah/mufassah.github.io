@@ -25,9 +25,5 @@ app.controller('QuizController', ['$scope', '$http', function($scope, $http) {
 		else
 			$scope.resultsLink = "#quiz4";
 	};
-	$scope.myBackground = function(image){
-		bimg = {"background-image" : "url(../images/" + image + ")"
-			}
-		return bimg;
-	};
+	
 }]);

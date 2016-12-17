@@ -1,4 +1,3 @@
-
 <div class="body quiz-body">
 <div ng-contoller="QuizController">
 <br>
@@ -8,7 +7,7 @@
 	<div class="item {{ ($index == 0) ? 'active': '' }}"
 		ng-repeat="question in myQuestions">
 		<div class="quiz-item">
-		<div class="image-temp" ng-style="myBackground(question.image)"></div>
+		<div class="image-temp"><img src="../images/{{question.image}}"></div>
 		<div class="content-temp">
 			<h3>{{ question.question }}</h3>
 			<p
