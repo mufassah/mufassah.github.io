@@ -7,7 +7,7 @@ app.config(function($routeProvider){
 	.when("/roster", {
 		templateUrl : "views/roster.html"
 	})
-	.when("/teamNews", {
+	.when("/news", {
 		templateUrl : "views/teamNews.html"
 	})
 	.when("/aboutUs", {
