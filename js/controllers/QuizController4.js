@@ -54,6 +54,20 @@ app.controller('QuizController4', ['$scope', '$http', function($scope, $http) {
 			$scope.resultsLink = "#defender";
 		else if ($scope.striker > $scope.sunbreaker && $scope.striker > $scope.defender && $scope.striker > $scope.architects)
 			$scope.resultsLink = "#striker";
+		else{
+			var rando = (Math.floor(Math.random() * 6) + 1) % 3;
+			switch(rando) {
+  			case 0:
+        		$scope.resultsLink = "#sunbreaker";
+        	break;
+    		case 1:
+        		$scope.resultsLink = "#defender";
+       	 	break;
+       	 	case 2:
+        		$scope.resultsLink = "#striker";
+        	break;
+		}
+		}
 	};
 		
 }]);
