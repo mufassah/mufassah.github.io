@@ -7,7 +7,7 @@
 			{"id": 2, "text": "Zap them with lightening", "points": 3},
 			{"id": 3, "text": "Irrelevant. The Architects' power is above all", "points": 4}
 		],
-		"image": "nightstalker.jpg"	
+		"image": "stormcaller2.jpg"	
 	},
 	{
 		"question": "Which compliments your playstyle best?",
@@ -17,7 +17,7 @@
 			{"id": 2, "text": "Powerful grenades that offer high dps and abilites that offer both shields and higher dps", "points": 3},
 			{"id": 3, "text": "The Architects know me best", "points": 4}
 		],
-		"image": "stormcaller2.jpg"	
+		"image": "nightstalker.jpg"	
 	},
 	{
 		"question": "Which role fits you best in your team?",

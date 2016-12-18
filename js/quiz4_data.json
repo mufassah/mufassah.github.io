@@ -7,7 +7,7 @@
 			{"id": 2, "text": "Zap them with lightening", "points": 3},
 			{"id": 3, "text": "Irrelevant. The Architects' power is above all", "points": 4}
 		],
-		"image": "nightstalker.jpg"	
+		"image": "sunbreaker.jpg"	
 	},
 	{
 		"question": "Which playstyle would you say fits you best?",
@@ -27,6 +27,6 @@
 			{"id": 2, "text": "Aim for more of a hybrid style that can fit in to a number of situations and team comps", "points": 3},
 			{"id": 3, "text": "I succumb to the will of the Architects", "points": 4}
 		],
-		"image": "sunbreaker.jpg"	
+		"image": "nightstalker.jpg"	
 	}
 ]
