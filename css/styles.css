@@ -25,7 +25,9 @@ body{
 	justify-content: space-around;
 	align-items: center;
 }
-
+.item{
+	opacity: 0;
+}
 
 .item > p {
 	width: 70%;
