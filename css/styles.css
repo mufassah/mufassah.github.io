@@ -401,10 +401,10 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 8em;
+    margin-top: 6.5em;
 }
 .ql-image{
-	height: 20em;
+	    height: 55vh;
 }
 .ql-image > img{
 	height: inherit;
