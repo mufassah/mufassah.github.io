@@ -401,5 +401,5 @@ body{
 	flex-direction: column;
 }
 .ql-content{
-	flex-grow: 1;
+	height: 15em;
 }

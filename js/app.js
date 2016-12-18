@@ -15,7 +15,7 @@ app.config(function($routeProvider){
 		controller : "AboutUsController"
 	})
 	.when("/quiz", {
-		templateUrl: "views/quizz.html",
+		templateUrl: "views/quiz-landing.html",
 		controller: "QuizController"
 	})
 	.when("/quiz2", {
