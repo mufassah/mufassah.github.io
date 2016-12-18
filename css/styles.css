@@ -398,8 +398,17 @@ body{
 }
 .quiz-landing{
 	display: flex;
-	flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8em;
+}
+.ql-image{
+	height: 20em;
+}
+.ql-image > img{
+	height: inherit;
 }
 .ql-content{
-	height: 15em;
+	color: white;
 }
