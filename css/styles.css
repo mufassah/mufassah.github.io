@@ -391,3 +391,8 @@ body{
     border: 1px solid transparent;
     border-radius: 4px;
 }
+.subclass-winner{
+	color: white;
+	font-size: 3em;
+	margin-top: 20em;
+}
