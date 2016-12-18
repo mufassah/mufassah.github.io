@@ -7,7 +7,8 @@
 			{"id": 2, "text": "A Battlestaff", "points": 3, "class": "w"},
 			{"id": 3, "text": "Let the Architects Decide", "points": 3, "class": "a"}
 		],
-		"image": "warlock3.jpg"	
+		"image": "warlock3.jpg",
+		"id": 0	
 	},
 	{
 		"question": "Which best describes you?",
@@ -17,7 +18,8 @@
 			{"id": 2, "text": "A lone wolf that aims to make their own luck and take that big risk for the big reward", "points": 6, "class": "h"},
 			{"id": 3, "text": "The Architects know me best", "points": 6, "class": "a"}
 		],
-		"image": "titan.jpg"	
+		"image": "titan.jpg",
+		"id": 1	
 	},
 	{
 		"question": "You see an ally in danger. What do you do?",
@@ -27,7 +29,8 @@
 			{"id": 2, "text": "Immediately rush to their aid and fight by their side", "points": 4, "class": "t"},
 			{"id": 3, "text": "The Architects have already decided the outcome of this conflict", "points": 4, "class": "a"}
 		],
-		"image": "hunter2.jpg"	
+		"image": "hunter2.jpg"	,
+		"id": 2
 	},
 	{
 		"question": "You and your fireteam are about to engage the enemy. How do you prefer to fight?",
@@ -37,7 +40,8 @@
 			{"id": 2, "text": "Dancing around the edge of the fight and quick to the killing blow", "points": 4, "class": "h"},
 			{"id": 3, "text": "Let the Architects take the wheel", "points": 4, "class": "a"}
 		],
-		"image": "warlock2.jpg"	
+		"image": "warlock2.jpg",
+		"id": 3	
 	},
 	{
 		"question": "Which set of skills is most appealing?",
@@ -47,6 +51,7 @@
 			{"id": 2, "text": "Very fast linear movements combined with raw strength and toughness", "points": 4, "class": "t"},
 			{"id": 3, "text": "Leave it to the Architects", "points": 4, "class": "a"}
 		],
-		"image": "titan5.jpg"	
+		"image": "titan5.jpg",
+		"id": 4	
 	}
 ]

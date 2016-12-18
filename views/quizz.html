@@ -6,14 +6,14 @@
 <div>
 	<div class="item {{ ($index == 0) ? 'active': '' }}"
 		ng-repeat="question in myQuestions">
-		<div class="quiz-item">
+		<div class="quiz-item" ng-if="$index === question.id">
 		<div class="image-temp"><img src="../images/{{question.image}}"></div>
 		<div class="content-temp">
 			<h3>{{ question.question }}</h3>
 			<p
 				class="answer {{ className === 'answer-' + $parent.$index + '-' + $index ? 'selected' : '' }}"
 				ng-repeat="answer in myQuestions[$index].answers"
-				ng-click="enable($parent.$index, $index)" ng-if="$parent.$index === $index">{{ answer.text }}</p>
+				ng-click="enable($parent.$index, $index)">{{ answer.text }}</p>
 			</div>
 			
 	</div>
