@@ -1,13 +1,10 @@
-<h2>hunter</h2>
 <div class="body quiz-body">
 <div ng-contoller="QuizController3">
 <br>
-<div id="myCarousel" class="carousel slide" data-interval="false">
-
-<div class="carousel-inner" role="listbox">
+<div>
 	<div class="item {{ ($index == 0) ? 'active': '' }}"
 		ng-repeat="question in myQuestions">
-		<div class="quiz-item">
+		<div class="quiz-item" ng-if="$index === questionID">
 		<div class="image-temp"><img src="../images/{{question.image}}"></div>
 		<div class="content-temp">
 			<h3>{{ question.question }}</h3>
@@ -15,20 +12,17 @@
 				class="answer {{ className === 'answer-' + $parent.$index + '-' + $index ? 'selected' : '' }}"
 				ng-repeat="answer in myQuestions[$index].answers"
 				ng-click="enable($parent.$index, $index)">{{ answer.text }}</p>
-			</div>
-			
-	</div>
-	
-	</div>
-	
+			</div>		
 	</div>
 	</div>
+	</div>
+	<br>	
 	</div>
 	</div>
 	<div
 		class="myButton" ng-if="(className === 'answer-' + qIndex + '-' + aIndex && qIndex < totalQuestions - 1)">
-		<button class="btn-warning quiz-btn" data-target="#myCarousel" role="button"
-			data-slide="next" ng-click="disableMe()">
+		<button class="btn-warning quiz-btn" role="button"
+			ng-click="disableMe()">
 			Next Question<span class="glyphicon glyphicon-chevron-right"
 			aria-hidden="true"></span>
 		</button>
@@ -40,11 +34,12 @@
 			aria-hidden="true"></span>
 		</a>
 	</div>
-	<script>
-
+<script>
  	$(document).on('click', '.answer', function(){
-			$(".myButton").animate({
-				opacity: '1.0'
-			},"slow");
+		$(".myButton").animate({
+			opacity: '1.0'
+		},
+		"slow"
+		);
 	});
 </script>

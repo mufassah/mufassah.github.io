@@ -1,5 +1,9 @@
 app.controller('QuizController3', ['$scope', '$http', function($scope, $http) {
-	$scope.totalPoints = 0;
+	$scope.gunslinger = 0;
+	$scope.nightstalker = 0;
+	$scope.bladedancer = 0;
+	$scope.architects = 0;
+	$scope.questionID = 0;
 	$http.get('js/quiz3_data.json').then(function(quizData){
 	$scope.myQuestions = quizData.data;
 	$scope.totalQuestions = $scope.myQuestions.length;
@@ -13,15 +17,43 @@ app.controller('QuizController3', ['$scope', '$http', function($scope, $http) {
 	};
 	$scope.disableMe = function() {
 		$scope.className = "";
-		$scope.totalPoints += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+		switch($scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].class) {
+  			case "g":
+        		$scope.gunslinger += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+        	break;
+    		case "n":
+        		$scope.nightstalker += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+       	 	break;
+       	 	case "b":
+        		$scope.bladedancer += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+        	break;
+    		case "a":
+        		$scope.architects += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+       	 	break;
+		}
+		$scope.questionID += 1;
 	};
 	$scope.submit = function() {
-		$scope.totalPoints += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
-		if($scope.totalPoints < 8)
+		switch($scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].class) {
+  			case "g":
+        		$scope.gunslinger += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+        	break;
+    		case "n":
+        		$scope.nightstalker += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+       	 	break;
+       	 	case "b":
+        		$scope.bladedancer += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+        	break;
+    		case "a":
+        		$scope.architects += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+       	 	break;
+		}
+		if($scope.gunslinger > $scope.nightstalker && $scope.gunslinger > $scope.bladedancer && $scope.gunslinger > $scope.architects)
 			$scope.resultsLink = "#gunslinger";
-		else if($scope.totalPoints < 15)
+		else if($scope.nightstalker > $scope.gunslinger && $scope.nightstalker > $scope.bladedancer && $scope.nightstalker > $scope.architects)
 			$scope.resultsLink = "#nightstalker";
-		else
+		else if ($scope.bladedancer > $scope.gunslinger && $scope.bladedancer > $scope.nightstalker && $scope.bladedancer > $scope.architects)
 			$scope.resultsLink = "#bladedancer";
 	};
+		
 }]);

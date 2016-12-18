@@ -2,30 +2,30 @@
 	{
 		"question": "Which method is most satisfying to deal with your enemies?",
 		"answers": [
-			{"id": 0, "text": "Burning and destroying them to nothing", "points": 1},
-			{"id": 1, "text": "Torment them with the nightmare of the void", "points": 2},
-			{"id": 2, "text": "Zap them with lightening", "points": 3},
-			{"id": 3, "text": "Irrelevant. The Architects' power is above all", "points": 4}
+			{"id": 0, "text": "Burning and destroying them to nothing","points": 2, "class": "g"},
+			{"id": 1, "text": "Torment them with the nightmare of the void", "points": 2, "class": "n"},
+			{"id": 2, "text": "Zap them with lightening", "points": 2, "class": "b"},
+			{"id": 3, "text": "Irrelevant. The Architects' power is above all", "points": 2, "class": "a"}
 		],
 		"image": "nightstalker.jpg"	
 	},
 	{
 		"question": "Which playstyle would you say fits you best?",
 		"answers": [
-			{"id": 0, "text": "Utilize your kit to lockdown areas for your team and maintain map control", "points": 1},
-			{"id": 1, "text": "Using your agile movements to excel at powerful close quarters combat", "points": 2},
-			{"id": 2, "text": "Take advantage of high damage abilities to keep a safe distance and pick off your enemies one by one", "points": 3},
-			{"id": 3, "text": "Whatever the Architects tell me to do", "points": 4}
+			{"id": 0, "text": "Utilize your kit to lockdown areas for your team and maintain map control", "points": 4, "class": "n"},
+			{"id": 1, "text": "Using your agile movements to excel at powerful close quarters combat", "points": 4, "class": "b"},
+			{"id": 2, "text": "Take advantage of high damage abilities to keep a safe distance and pick off your enemies one by one", "points": 4, "class": "g"},
+			{"id": 3, "text": "Whatever the Architects tell me to do", "points": 4, "class": "a"}
 		],
 		"image": "stormcaller2.jpg"	
 	},
 	{
 		"question": "Which role fits you best in your team?",
 		"answers": [
-			{"id": 0, "text": "Very aggressive slayer that looks to put up high kill counts and chain kills together", "points": 1},
-			{"id": 1, "text": "More passive play offering cover-fire and support for the rest of the squad", "points": 2},
-			{"id": 2, "text": "Aim for more of a hybrid style that can fit in to a number of situations and team comps", "points": 3},
-			{"id": 3, "text": "I succumb to the will of the Architects", "points": 4}
+			{"id": 0, "text": "Very aggressive slayer that looks to put up high kill counts and chain kills together", "points": 3, "class": "b"},
+			{"id": 1, "text": "More passive play offering cover-fire and support for the rest of the squad", "points": 3, "class": "g"},
+			{"id": 2, "text": "Aim for more of a hybrid style that can fit in to a number of situations and team comps", "points": 3, "class": "n"},
+			{"id": 3, "text": "I succumb to the will of the Architects", "points": 3, "class": "a"}
 		],
 		"image": "sunbreaker.jpg"	
 	}

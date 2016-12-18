@@ -42,7 +42,18 @@ app.config(function($routeProvider){
 		templateUrl: "views/stormcaller.html",
 		controller: ""
 	})
-
+	.when("/gunslinger", {
+		templateUrl: "views/gunslinger.html",
+		controller: ""
+	})
+	.when("/nightstalker", {
+		templateUrl: "views/nightstalker.html",
+		controller: ""
+	})
+	.when("/bladedancer", {
+		templateUrl: "views/bladedancer.html",
+		controller: ""
+	})
 
 	;
 });
