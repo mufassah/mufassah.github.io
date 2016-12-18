@@ -10,10 +10,6 @@ app.config(function($routeProvider){
 	.when("/news", {
 		templateUrl : "views/teamNews.html"
 	})
-	.when("/aboutUs", {
-		templateUrl : "views/aboutUs.html",
-		controller : "AboutUsController"
-	})
 	.when("/quiz-begin", {
 		templateUrl: "views/quiz-landing.html"
 	})
