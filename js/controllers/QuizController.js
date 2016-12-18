@@ -3,6 +3,7 @@ app.controller('QuizController', ['$scope', '$http', function($scope, $http) {
 	$scope.hunter = 0;
 	$scope.titan = 0;
 	$scope.architects = 0;
+	$scope.questionID = 0;
 	$http.get('js/quiz_data.json').then(function(quizData){
 	$scope.myQuestions = quizData.data;
 	$scope.totalQuestions = $scope.myQuestions.length;
@@ -30,6 +31,7 @@ app.controller('QuizController', ['$scope', '$http', function($scope, $http) {
         		$scope.architects += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
        	 	break;
 		}
+		$scope.questionID += 1;
 	};
 	$scope.submit = function() {
 		switch($scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].class) {
