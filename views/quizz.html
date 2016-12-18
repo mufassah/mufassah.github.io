@@ -13,7 +13,7 @@
 			<p
 				class="answer {{ className === 'answer-' + $parent.$index + '-' + $index ? 'selected' : '' }}"
 				ng-repeat="answer in myQuestions[$index].answers"
-				ng-click="enable($parent.$index, $index)">{{ answer.text }}</p>
+				ng-click="enable($parent.$index, $index)" ng-if="$parent.$index === $index">{{ answer.text }}</p>
 			</div>
 			
 	</div>
