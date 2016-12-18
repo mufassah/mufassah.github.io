@@ -56,6 +56,7 @@ app.controller('QuizController', ['$scope', '$http', function($scope, $http) {
 			$scope.resultsLink = "#quiz4";
 		else{
 			var rando = (Math.floor(Math.random() * 15) + 1) % 3;
+			console.log(rando);
 			switch(rando) {
   			case 0:
         		$scope.resultsLink = "#quiz2";
