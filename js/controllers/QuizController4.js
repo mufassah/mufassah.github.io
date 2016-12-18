@@ -1,5 +1,9 @@
 app.controller('QuizController4', ['$scope', '$http', function($scope, $http) {
-	$scope.totalPoints = 0;
+	$scope.sunbreaker = 0;
+	$scope.defender = 0;
+	$scope.striker = 0;
+	$scope.architects = 0;
+	$scope.questionID = 0;
 	$http.get('js/quiz4_data.json').then(function(quizData){
 	$scope.myQuestions = quizData.data;
 	$scope.totalQuestions = $scope.myQuestions.length;
@@ -13,15 +17,43 @@ app.controller('QuizController4', ['$scope', '$http', function($scope, $http) {
 	};
 	$scope.disableMe = function() {
 		$scope.className = "";
-		$scope.totalPoints += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+		switch($scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].class) {
+  			case "sun":
+        		$scope.sunbreaker += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+        	break;
+    		case "def":
+        		$scope.defender += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+       	 	break;
+       	 	case "str":
+        		$scope.striker += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+        	break;
+    		case "a":
+        		$scope.architects += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+       	 	break;
+		}
+		$scope.questionID += 1;
 	};
 	$scope.submit = function() {
-		$scope.totalPoints += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
-		if($scope.totalPoints < 8)
-			$scope.resultsLink = "#striker";
-		else if($scope.totalPoints < 15)
-			$scope.resultsLink = "#defender";
-		else
+		switch($scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].class) {
+  			case "sun":
+        		$scope.sunbreaker += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+        	break;
+    		case "def":
+        		$scope.defender += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+       	 	break;
+       	 	case "str":
+        		$scope.striker += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+        	break;
+    		case "a":
+        		$scope.architects += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+       	 	break;
+		}
+		if($scope.sunbreaker > $scope.defender && $scope.sunbreaker > $scope.striker && $scope.sunbreaker > $scope.architects)
 			$scope.resultsLink = "#sunbreaker";
+		else if($scope.defender > $scope.sunbreaker && $scope.defender > $scope.striker && $scope.defender > $scope.architects)
+			$scope.resultsLink = "#defender";
+		else if ($scope.striker > $scope.sunbreaker && $scope.striker > $scope.defender && $scope.striker > $scope.architects)
+			$scope.resultsLink = "#striker";
 	};
+		
 }]);

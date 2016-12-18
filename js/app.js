@@ -54,6 +54,17 @@ app.config(function($routeProvider){
 		templateUrl: "views/bladedancer.html",
 		controller: ""
 	})
-
+	.when("/sunbreaker", {
+		templateUrl: "views/sunbreaker.html",
+		controller: ""
+	})
+	.when("/defender", {
+		templateUrl: "views/defender.html",
+		controller: ""
+	})
+	.when("/striker", {
+		templateUrl: "views/striker.html",
+		controller: ""
+	})
 	;
 });
