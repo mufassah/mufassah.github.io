@@ -1,8 +1,6 @@
 <div class="body quiz-body">
 <div ng-contoller="QuizController">
 <br>
-
-
 <div>
 	<div class="item {{ ($index == 0) ? 'active': '' }}"
 		ng-repeat="question in myQuestions">
@@ -15,18 +13,11 @@
 				ng-repeat="answer in myQuestions[$index].answers"
 				ng-click="enable($parent.$index, $index)">{{ answer.text }}</p>
 			</div>
-			
 	</div>
-	
 	</div>
-	
 	</div>
-		
-
-	<br>
-		
+	<br>	
 	</div>
-
 	</div>
 	<div
 		class="myButton" ng-if="(className === 'answer-' + qIndex + '-' + aIndex && qIndex < totalQuestions - 1)">

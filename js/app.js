@@ -29,5 +29,20 @@ app.config(function($routeProvider){
 	.when("/quiz4", {
 		templateUrl: "views/quizz4.html",
 		controller: "QuizController4"
-	});
+	})
+	.when("/sunsinger", {
+		templateUrl: "views/sunsinger.html",
+		controller: ""
+	})
+	.when("/voidwalker", {
+		templateUrl: "views/voidwalker.html",
+		controller: ""
+	})
+	.when("/stormcaller", {
+		templateUrl: "views/stormcaller.html",
+		controller: ""
+	})
+
+
+	;
 });

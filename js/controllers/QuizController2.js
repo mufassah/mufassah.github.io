@@ -1,5 +1,9 @@
 app.controller('QuizController2', ['$scope', '$http', function($scope, $http) {
-	$scope.totalPoints = 0;
+	$scope.sunsinger = 0;
+	$scope.voidwalker = 0;
+	$scope.stormcaller = 0;
+	$scope.architects = 0;
+	$scope.questionID = 0;
 	$http.get('js/quiz2_data.json').then(function(quizData){
 	$scope.myQuestions = quizData.data;
 	$scope.totalQuestions = $scope.myQuestions.length;
@@ -13,15 +17,43 @@ app.controller('QuizController2', ['$scope', '$http', function($scope, $http) {
 	};
 	$scope.disableMe = function() {
 		$scope.className = "";
-		$scope.totalPoints += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+		switch($scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].class) {
+  			case "sun":
+        		$scope.sunsinger += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+        	break;
+    		case "void":
+        		$scope.voidwalker += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+       	 	break;
+       	 	case "storm":
+        		$scope.stormcaller += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+        	break;
+    		case "a":
+        		$scope.architects += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+       	 	break;
+		}
+		$scope.questionID += 1;
 	};
 	$scope.submit = function() {
-		$scope.totalPoints += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
-		if($scope.totalPoints < 8)
-			$scope.resultsLink = "#aboutUs";
-		else if($scope.totalPoints < 15)
-			$scope.resultsLink = "#roster";
-		else
-			$scope.resultsLink = "#quiz2";
+		switch($scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].class) {
+  			case "sun":
+        		$scope.sunsinger += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+        	break;
+    		case "void":
+        		$scope.voidwalker += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+       	 	break;
+       	 	case "storm":
+        		$scope.stormcaller += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+        	break;
+    		case "a":
+        		$scope.architects += $scope.myQuestions[$scope.qIndex].answers[$scope.aIndex].points;
+       	 	break;
+		}
+		if($scope.sunsinger > $scope.voidwalker && $scope.sunsinger > $scope.stormcaller && $scope.sunsinger > $scope.architects)
+			$scope.resultsLink = "#sunsinger";
+		else if($scope.voidwalker > $scope.sunsinger && $scope.voidwalker > $scope.stormcaller && $scope.voidwalker > $scope.architects)
+			$scope.resultsLink = "#voidwalker";
+		else if ($scope.stormcaller > $scope.sunsinger && $scope.stormcaller > $scope.voidwalker && $scope.stormcaller > $scope.architects)
+			$scope.resultsLink = "#stormcaller";
 	};
+		
 }]);
