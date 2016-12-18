@@ -55,7 +55,7 @@ app.controller('QuizController3', ['$scope', '$http', function($scope, $http) {
 		else if ($scope.bladedancer > $scope.gunslinger && $scope.bladedancer > $scope.nightstalker && $scope.bladedancer > $scope.architects)
 			$scope.resultsLink = "#bladedancer";
 		else{
-			var rando = (Math.floor(Math.random() * 6) + 1) % 3;
+			var rando = (Math.floor(Math.random() * 15) + 1) % 3;
 			switch(rando) {
   			case 0:
         		$scope.resultsLink = "#gunslinger";

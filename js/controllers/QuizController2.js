@@ -55,7 +55,7 @@ app.controller('QuizController2', ['$scope', '$http', function($scope, $http) {
 		else if ($scope.stormcaller > $scope.sunsinger && $scope.stormcaller > $scope.voidwalker && $scope.stormcaller > $scope.architects)
 			$scope.resultsLink = "#stormcaller";
 		else{
-			var rando = (Math.floor(Math.random() * 6) + 1) % 3;
+			var rando = (Math.floor(Math.random() * 15) + 1) % 3;
 			switch(rando) {
   			case 0:
         		$scope.resultsLink = "#sunsinger";
