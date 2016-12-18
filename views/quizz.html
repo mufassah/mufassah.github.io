@@ -1,9 +1,9 @@
 <div class="body quiz-body">
 <div ng-contoller="QuizController">
 <br>
-<div id="myCarousel" class="carousel slide" data-interval="false">
 
-<div class="carousel-inner" role="listbox">
+
+<div>
 	<div class="item {{ ($index == 0) ? 'active': '' }}"
 		ng-repeat="question in myQuestions">
 		<div class="quiz-item">
@@ -22,7 +22,7 @@
 	
 	</div>
 		
-	</div>
+
 	<br>
 		
 	</div>
@@ -30,8 +30,8 @@
 	</div>
 	<div
 		class="myButton" ng-if="(className === 'answer-' + qIndex + '-' + aIndex && qIndex < totalQuestions - 1)">
-		<button class="btn-warning quiz-btn" data-target="#myCarousel" role="button"
-			data-slide="next" ng-click="disableMe()">
+		<button class="btn-warning quiz-btn" role="button"
+			ng-click="disableMe()">
 			Next Question<span class="glyphicon glyphicon-chevron-right"
 			aria-hidden="true"></span>
 		</button>
