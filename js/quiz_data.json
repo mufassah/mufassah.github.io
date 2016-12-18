@@ -2,50 +2,50 @@
 	{
 		"question": "If you were to find yourself in a battle, what weapon would you choose??",
 		"answers": [
-			{"id": 0, "text": "A Sword", "points": 1},
-			{"id": 1, "text": "A Shield", "points": 2},
-			{"id": 2, "text": "A Battlestaff", "points": 3},
-			{"id": 3, "text": "Let the Architects Decide", "points": 4}
+			{"id": 0, "text": "A Sword", "points": 3, "class": "h"},
+			{"id": 1, "text": "A Shield", "points": 3, "class": "t"},
+			{"id": 2, "text": "A Battlestaff", "points": 3, "class": "w"},
+			{"id": 3, "text": "Let the Architects Decide", "points": 3, "class": "a"}
 		],
 		"image": "warlock3.jpg"	
 	},
 	{
 		"question": "Which best describes you?",
 		"answers": [
-			{"id": 0, "text": "Someone that looks to protect others at all costs through strength, sacrifice, and mercilessness", "points": 1},
-			{"id": 1, "text": "Someone that dedicates their time and resources to learning and understanding true power", "points": 2},
-			{"id": 2, "text": "A lone wolf that aims to make their own luck and take that big risk for the big reward", "points": 3},
-			{"id": 3, "text": "The Architects know me best", "points": 4}
+			{"id": 0, "text": "Someone that looks to protect others at all costs through strength, sacrifice, and mercilessness", "points": 6, "class": "t"},
+			{"id": 1, "text": "Someone that dedicates their time and resources to learning and understanding true power", "points": 6, "class": "w"},
+			{"id": 2, "text": "A lone wolf that aims to make their own luck and take that big risk for the big reward", "points": 6, "class": "h"},
+			{"id": 3, "text": "The Architects know me best", "points": 6, "class": "a"}
 		],
 		"image": "titan.jpg"	
 	},
 	{
 		"question": "You see an ally in danger. What do you do?",
 		"answers": [
-			{"id": 0, "text": "Abuse the advanced power you have dedicated your time to harness to defeat the enemy", "points": 1},
-			{"id": 1, "text": "Be elusive until you find the perfect time to deliver a deadly strike", "points": 2},
-			{"id": 2, "text": "Immediately rush to their aid and fight by their side", "points": 3},
-			{"id": 3, "text": "The Architects have already decided the outcome of this conflict", "points": 4}
+			{"id": 0, "text": "Abuse the advanced power you have dedicated your time to harness to defeat the enemy", "points": 4, "class": "w"},
+			{"id": 1, "text": "Be elusive until you find the perfect time to deliver a deadly strike", "points": 4, "class": "h"},
+			{"id": 2, "text": "Immediately rush to their aid and fight by their side", "points": 4, "class": "t"},
+			{"id": 3, "text": "The Architects have already decided the outcome of this conflict", "points": 4, "class": "a"}
 		],
 		"image": "hunter2.jpg"	
 	},
 	{
 		"question": "You and your fireteam are about to engage the enemy. How do you prefer to fight?",
 		"answers": [
-			{"id": 0, "text": "Put me in the thick of it and keep the enemy off my teammates", "points": 1},
-			{"id": 1, "text": "Just behind my teammates, right where my power and abilities are at their strongest", "points": 2},
-			{"id": 2, "text": "Dancing around the edge of the fight and quick to the killing blow", "points": 3},
-			{"id": 3, "text": "Let the Architects take the wheel", "points": 4}
+			{"id": 0, "text": "Put me in the thick of it and keep the enemy off my teammates", "points": 4, "class": "t"},
+			{"id": 1, "text": "Just behind my teammates, right where my power and abilities are at their strongest", "points": 4, "class": "w"},
+			{"id": 2, "text": "Dancing around the edge of the fight and quick to the killing blow", "points": 4, "class": "h"},
+			{"id": 3, "text": "Let the Architects take the wheel", "points": 4, "class": "a"}
 		],
 		"image": "warlock2.jpg"	
 	},
 	{
 		"question": "Which set of skills is most appealing?",
 		"answers": [
-			{"id": 0, "text": "Nimble and elusive movements that make it easy to be a nuissance but deadly", "points": 1},
-			{"id": 1, "text": "Powerful melee ability combined with space magic", "points": 2},
-			{"id": 2, "text": "Very fast linear movements combined with raw strength and toughness", "points": 3},
-			{"id": 3, "text": "Leave it to the Architects", "points": 4}
+			{"id": 0, "text": "Nimble and elusive movements that make it easy to be a nuissance but deadly", "points": 4, "class": "h"},
+			{"id": 1, "text": "Powerful melee ability combined with space magic", "points": 4, "class": "w"},
+			{"id": 2, "text": "Very fast linear movements combined with raw strength and toughness", "points": 4, "class": "t"},
+			{"id": 3, "text": "Leave it to the Architects", "points": 4, "class": "a"}
 		],
 		"image": "titan5.jpg"	
 	}
