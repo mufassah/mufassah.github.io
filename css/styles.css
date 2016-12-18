@@ -61,7 +61,7 @@ body{
 	display:flex;
 	justify-content: center;
 	opacity: 0;
-	margin-top: -7em;
+	margin-top: -4.5em;
 }
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
@@ -293,13 +293,14 @@ body{
 }
 .image-temp{
 	flex-grow: 3;
-    
+    height:32.5em;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     text-align: center;
 }
 .image-temp > img {
 	width: 85%;
+	height: 100%;
 }
 .content-temp{
 	flex-grow: 1;
