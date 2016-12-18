@@ -396,3 +396,10 @@ body{
 	font-size: 3em;
 	margin-top: 10em;
 }
+.quiz-landing{
+	display: flex;
+	flex-direction: column;
+}
+.ql-content{
+	flex-grow: 1;
+}
