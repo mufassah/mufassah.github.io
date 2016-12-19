@@ -9,6 +9,9 @@ body{
 .news-contain{
 	display: flex;
 }
+.twitter-div{
+	flex: 1;
+}
 .body{
 	width: 90%;
 	margin: 0 auto;
@@ -272,6 +275,7 @@ body{
 	width:100%;
 }
 #logoDiv{
+	flex: 2.5;
 	width: 100%;
     height: 29em;
     margin-top: 5em;
