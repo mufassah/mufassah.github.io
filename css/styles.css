@@ -21,6 +21,10 @@ body{
 	width: 100%;
     height: 29em;
 }
+#logoDiv > img {
+	width: 100%;
+    height: inherit;
+}
 .body{
 	width: 90%;
 	margin: 0 auto;
