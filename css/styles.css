@@ -26,11 +26,6 @@ body{
 
 #logoDiv{
     margin-bottom: 1em;
-    background-image: url(../images/news-banner.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     box-shadow: 0 0 20px #ffcc00;
     height: 30em;
     width: 100%;
@@ -51,7 +46,7 @@ body{
     margin: 1.5em 1.5em 1.5em 3em;
     display: flex;
     flex: 1;
-    background-image: url(../images/newsBG.jpg);
+    background-image: url("../images/newsBG.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -61,7 +56,7 @@ body{
     margin: 1.5em 3em 1.5em 1.5em;
     display: flex;
     flex: 1;
-    background-image: url(../images/newsBG.jpg);
+    background-image: url("../images/newsBG.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
