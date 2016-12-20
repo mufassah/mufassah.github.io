@@ -16,10 +16,15 @@ body{
     padding: 3em;
 }
 .news-row{
-	display: flex;
+    display: flex;
+    height: 15em;
+    width: 100%;
 }
 .news-img{
-	flex:1;
+	display: flex;
+}
+.news-img > img{
+	width: 100%;
 }
 #logoDiv{
 	height: 29em;
@@ -29,10 +34,10 @@ body{
     height: inherit;
 }
 .main-news{
-	flex: 4;
-	display: flex;
-	flex-direction: column;
-	width: 100%;
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
 }
 .body{
 	width: 90%;
