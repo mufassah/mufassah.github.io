@@ -16,9 +16,8 @@ body{
     padding: 3em;
 }
 .news-row{
-	flex: 1;
     display: flex;
-    height: 20em;
+    height: 25em;
     width: 100%;
 }
 .news-img{
@@ -26,7 +25,6 @@ body{
 }
 
 #logoDiv{
-    flex: 2;
     margin-bottom: 1em;
     background-image: url(../images/news-banner.jpg);
     -webkit-background-size: cover;
@@ -34,6 +32,8 @@ body{
     -o-background-size: cover;
     background-size: cover;
     box-shadow: 0 0 20px #ffcc00;
+    height: 30em;
+    width: 100%;
 }
 #logoDiv > img {
 	width: 100%;
@@ -48,22 +48,22 @@ body{
     margin-bottom: 2em;
 }
 .news1{
-	margin: .5em 1em .5em .5em;
-	display: flex;
-	flex: 1;
-	background-image: url("../images/newsBG.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
+    margin: 1.5em 1.5em 1.5em 3em;
+    display: flex;
+    flex: 1;
+    background-image: url(../images/newsBG.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .news2{
-	margin: .5em .5em .5em 1em;
-	display: flex;
-	flex: 1;
-	background-image: url("../images/newsBG.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
+    margin: 1.5em 3em 1.5em 1.5em;
+    display: flex;
+    flex: 1;
+    background-image: url(../images/newsBG.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
