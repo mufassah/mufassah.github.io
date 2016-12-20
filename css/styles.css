@@ -27,7 +27,7 @@ body{
 
 #logoDiv{
     flex: 2;
-    margin-bottom: .05em;
+    margin-bottom: 1em;
     background-image: url(../images/news-banner.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
