@@ -22,10 +22,9 @@ body{
 }
 .news-img{
 	display: flex;
+	background-image: url("../images/newsBG.jpg");
 }
-.news-img > img{
-	width: 100%;
-}
+
 #logoDiv{
 	height: 30em;
     margin-bottom: .05em;
