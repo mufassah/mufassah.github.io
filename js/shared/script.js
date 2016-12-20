@@ -34,3 +34,9 @@ function misaClick(){
 }
 
 
+document.getElementById('logo-video').addEventListener('ended',myHandler,false);
+function myHandler(e) {
+    setTimeout(function(){
+        document.getElementById('myVideo').play();
+    }, 10000);
+}
