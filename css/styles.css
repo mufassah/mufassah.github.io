@@ -47,8 +47,8 @@ body{
     margin-bottom: 2em;
 }
 .news1{
-	margin-top: .1em;
-	margin-right: .1em;
+	margin-top: .5em;
+	margin-right: .5em;
 	display: flex;
 	flex: 1;
 	background-image: url("../images/newsBG.jpg");
@@ -58,8 +58,8 @@ body{
     background-size: cover;
 }
 .news2{
-	margin-top: .1em;
-	margin-left: .1em;
+	margin-top: .5em;
+	margin-left: .5em;
 	display: flex;
 	flex: 1;
 	background-image: url("../images/newsBG.jpg");
