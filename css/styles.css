@@ -17,7 +17,7 @@ body{
 }
 .news-row{
     display: flex;
-    height: 15em;
+    height: 20em;
     width: 100%;
 }
 .news-img{
@@ -27,7 +27,8 @@ body{
 	width: 100%;
 }
 #logoDiv{
-	height: 29em;
+	height: 30em;
+    margin-bottom: .1em;
 }
 #logoDiv > img {
 	width: 100%;
