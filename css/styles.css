@@ -16,6 +16,7 @@ body{
     padding: 3em;
 }
 .news-row{
+	flex: 1;
     display: flex;
     height: 20em;
     width: 100%;
@@ -25,8 +26,14 @@ body{
 }
 
 #logoDiv{
+	flex:2;
 	height: 30em;
     margin-bottom: .05em;
+    background-image: url("../images/news-banner.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #logoDiv > img {
 	width: 100%;
