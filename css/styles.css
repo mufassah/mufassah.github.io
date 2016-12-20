@@ -26,12 +26,11 @@ body{
 }
 
 #logoDiv{
-	flex:2;
-	height: 30em;
+    flex: 2;
     margin-bottom: .05em;
-    background-image: url("../images/news-banner.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
+    background-image: url(../images/news-banner.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
