@@ -17,13 +17,17 @@ body{
 
 }
 #logoDiv{
-	flex: 4;
-	width: 100%;
-    height: 29em;
+	height: 29em;
 }
 #logoDiv > img {
 	width: 100%;
     height: inherit;
+}
+.main-news{
+	flex: 4;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }
 .body{
 	width: 90%;
