@@ -14,7 +14,12 @@ body{
 .twitter-div{
     flex: 1;
     padding: 3em;
-
+}
+.news-row{
+	display: flex;
+}
+.news-row > img{
+	flex:1;
 }
 #logoDiv{
 	height: 29em;
