@@ -39,6 +39,15 @@ body{
     flex-direction: column;
     width: 80%;
     box-shadow: 0 0 20px #ffcc00;
+    margin-bottom: 2em;
+}
+.news1{
+	padding-top: .1em;
+	padding-right: .1em;
+}
+.news2{
+	padding-top: .1em;
+	padding-left: .1em;
 }
 .body{
 	width: 90%;
