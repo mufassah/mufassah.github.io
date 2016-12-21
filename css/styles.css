@@ -223,7 +223,6 @@ body{
   }
   .playerBox{
     display: flex;
-    justify-content: center;
     margin-top: 5em;
   }
    .contentBox{
@@ -239,7 +238,6 @@ body{
 	display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    box-shadow: 0 10px 20px #ffea00;
 }
 #circle-box{
 	width: 60%;
