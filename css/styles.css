@@ -196,8 +196,8 @@ body{
 	transition: width .5s, height .5s;
 }
 .imgSelect2:hover{
-	height: 1.2em;
-	width: 1.2em;
+	height: 7em;
+	width: 20em;
 	cursor: pointer;
 }
 .mainBio{
