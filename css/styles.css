@@ -193,12 +193,14 @@ body{
     max-width: 120px;
   }
 .imgSelect2{
-	transition: width .5s, height .5s;
+    width: 27em;
+    height: 8em;
+    transition: width .5s, height .5s;
 }
 .imgSelect2:hover{
-	height: 7em;
-	width: 20em;
-	cursor: pointer;
+    height: 9em;
+    width: 30em;
+    cursor: pointer;
 }
 .mainBio{
     width: 100%;
