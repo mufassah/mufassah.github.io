@@ -33,5 +33,8 @@ function misaClick(){
     '<div class="picCenter"><img src="qguard.jpg" class="img-responsive mainBio"></div><div id="bio" class="transbox"><h1>MisaOP</h1><p class="smallBio">My name is Misa, I am a 17 year old kid who plays destiny and various other games. I am always making jokes or saying something goofy. </p><div class="links-container"><div class="linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/Mesahh">Mesahh</a></div><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/MisaWombo">MisaWombo</a></div></div></div>';
 }
 
-
+function heavenClick(){
+   document.getElementById("content").innerHTML = 
+    '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/heaven-roster.jpg" class="mainBio img-responsive"></div><div class="bio-div"><div class="bio-p"><p>This is the home for Heaven Clan, a strong competitive Destiny team full of a number of talented players. We compete with many of the top teams and players around the world and we are only just getting started. Join us in our path to eternal glory, or be smote.</p></div><div class="links-container"><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/HeavenClan_">Heaven Clan</a></div></div></div></div>';
+}
  
