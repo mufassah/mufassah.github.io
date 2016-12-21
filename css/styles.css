@@ -22,9 +22,11 @@ body{
     display: flex;
     height: 25em;
     width: 100%;
+    color: white;
 }
-.news-img{
-	
+.news-row > p{
+	font-size: 2em;
+	text-align: center;
 }
 
 #logoDiv{
