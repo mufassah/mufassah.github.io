@@ -6,7 +6,7 @@ function connClick() {
 
 function hayesClick(){
  document.getElementById("content").innerHTML = 
-  '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/hayes-layout.jpg" class="mainBio img-responsive"></div><div class="bio-div"><div class="bio-p"><img src="../images/hayes-bio.jpg></div><div class="links-container"><div class="linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/elitehayestv">elitehayestv</a></div><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/elitehayess">elitehayess</a></div></div></div></div>';
+  '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/hayes-layout.jpg" class="mainBio img-responsive"></div><div class="bio-div"><div class="bio-p"><img src="../images/hayes-bio.jpg"></div><div class="links-container"><div class="linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/elitehayestv">elitehayestv</a></div><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/elitehayess">elitehayess</a></div></div></div></div>';
 }
 
 function genesisClick(){
