@@ -178,8 +178,8 @@ body{
   /* roster */
 
 .imgSelect{
-  max-height: 100px;
-  max-width: 100px;
+  height: 100px;
+  width: 100px;
   opacity: .6;
   display:inline-block;
   border: .25em solid #ffcc00;
@@ -189,8 +189,8 @@ body{
 .imgSelect:hover{
     opacity: 1.0;
     cursor: pointer;
-    max-height: 120px;
-    max-width: 120px;
+    height: 120px;
+    width: 120px;
   }
 .mainBio{
     width: 100%;
@@ -239,16 +239,18 @@ body{
 
 }
 .playerSelect{
-	display: flex;
+    display: flex;
     justify-content: space-around;
+    width: 70%;
     flex-wrap: wrap;
 }
 #circle-box{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: center;
-    flex: 1;
+    justify-content: space-around;
+    height: 100%;
+    flex: 1
 }
 #bio{
     display: flex;
