@@ -184,10 +184,13 @@ body{
   display:inline-block;
   border: .25em solid #ffcc00;
   margin-bottom: .1em;
+  transition: width: .5s, height: .5s;
 }
 .imgSelect:hover{
     opacity: 1.0;
     cursor: pointer;
+    max-height: 120px;
+    max-width: 120px;
   }
 .mainBio{
     width: 100%;
