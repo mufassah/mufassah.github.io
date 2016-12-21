@@ -493,3 +493,7 @@ body{
 	margin-top: 5em;
 	margin-bottom: 4em;
 }
+.roster-logo{
+	display: flex;
+	align-items: center;
+}
