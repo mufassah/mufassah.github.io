@@ -224,6 +224,7 @@ body{
   .playerBox{
     display: flex;
     margin-top: 5em;
+    justify-content: space-between;
   }
    .contentBox{
     display: flex;
