@@ -10,6 +10,18 @@ app.config(function($routeProvider){
 	.when("/news", {
 		templateUrl : "views/teamNews.html"
 	})
+	.when("/news1", {
+		templateUrl : "views/news1.html"
+	})
+	.when("/news2", {
+		templateUrl : "views/news2.html"
+	})
+	.when("/news3", {
+		templateUrl : "views/news3.html"
+	})
+	.when("/news4", {
+		templateUrl : "views/news4.html"
+	})
 	.when("/quiz-begin", {
 		templateUrl: "views/quiz-landing.html"
 	})
