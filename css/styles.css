@@ -55,6 +55,10 @@ body{
     -webkit-transition: margin .5s;
     transition: margin .5s, flex .5s;
 }
+.news1 > a {
+	height: inherit;
+	width: inherit;
+}
 .news1:hover{
     margin: 0 0 0 0;
     flex: 1.125;
