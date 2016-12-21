@@ -56,8 +56,8 @@ body{
     transition: margin .5s, flex .5s;
 }
 .news1 > a {
-	height: inherit;
-	width: inherit;
+	height: 100%;
+	width: 100%;
 }
 .news1:hover{
     margin: 0 0 0 0;
@@ -74,6 +74,10 @@ body{
     background-size: cover;
     -webkit-transition: margin .5s;
     transition: margin .5s, flex .5s;
+}
+.news2 > a {
+	height: 100%;
+	width: 100%;
 }
 .news2:hover{
     margin: 0 0 0 0;
