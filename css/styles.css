@@ -176,7 +176,7 @@ body{
     font-style: Sansation;
   }
   /* roster */
-
+ 
 .imgSelect{
   max-height: 100px;
   max-width: 100px;
@@ -192,6 +192,14 @@ body{
     max-height: 120px;
     max-width: 120px;
   }
+.imgSelect2{
+	transition: width .5s, height .5s;
+}
+.imgSelect2:hover{
+	height: 1.2em;
+	width: 1.2em;
+	cursor: pointer;
+}
 .mainBio{
     width: 100%;
 }
