@@ -516,3 +516,18 @@ body{
     display: flex;
     align-items: center;
 }
+.subclass-container{
+    display: flex;
+    margin-top: 8em;
+    width: 97%;
+}
+.subclass-img{
+    margin-bottom: 1em;
+    box-shadow: 0 0 20px #ffcc00;
+    height: 30em;
+    width: 100%;
+}
+.subclass-img > img {
+  width: 100%;
+    height: inherit;
+}
