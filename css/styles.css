@@ -525,7 +525,8 @@ body{
 }
 .subclass-container > h1{
     text-align: center;
-    font-size: 3em;
+    font-size: 5em;
+    color: white;
 }
 .subclass-img{
     margin-bottom: 1em;
