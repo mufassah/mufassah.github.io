@@ -520,6 +520,7 @@ body{
     display: flex;
     margin-top: 8em;
     width: 97%;
+    justify-content: center;
 }
 .subclass-img{
     margin-bottom: 1em;
