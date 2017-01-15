@@ -34,12 +34,13 @@ body{
     margin-top: 5em;
     position: relative;
 }
-.news-row > p{
+.news-content {
   margin-top: 2.5em;
-	font-size: 2em;
 	text-align: left;
 }
-
+.news-message{
+  font-size: 1.5em;
+}
 #logoDiv{
     margin-bottom: 1em;
     box-shadow: 0 0 20px #ffcc00;
