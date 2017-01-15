@@ -53,7 +53,7 @@ body{
     margin: 1.5em 1.5em 1.5em 3em;
     display: flex;
     flex: 1;
-    background-image: url("../images/newsBG.jpg");
+    background-image: url("../images/returning-members.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -73,7 +73,7 @@ body{
     margin: 1.5em 3em 1.5em 1.5em;
     display: flex;
     flex: 1;
-    background-image: url("../images/newsBG.jpg");
+    background-image: url("../images/new-recruits.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
