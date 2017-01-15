@@ -23,6 +23,8 @@ body{
     height: 25em;
     width: 100%;
     color: white;
+    background: rgba(51, 51, 51, 0.6);
+    border-top: 1px solid rgb(255, 204, 0);
 }
 .news-row > p{
 	font-size: 2em;
