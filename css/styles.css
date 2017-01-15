@@ -53,11 +53,13 @@ body{
     margin: 1.5em 1.5em 1.5em 3em;
     display: flex;
     flex: 1;
-    background-image: url("../images/returning-members.jpg");
+    /*background-image: url("../images/returning-members.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;*/
     -webkit-transition: margin .5s;
     transition: margin .5s, flex .5s;
 }
