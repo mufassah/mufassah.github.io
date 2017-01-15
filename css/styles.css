@@ -82,11 +82,11 @@ body{
     margin: 1.5em 3em 1.5em 1.5em;
     display: flex;
     flex: 1;
-    background-image: url("../images/new-recruits.jpg");
+    /*background-image: url("../images/new-recruits.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
     -webkit-transition: margin .5s;
     transition: margin .5s, flex .5s;
 }
