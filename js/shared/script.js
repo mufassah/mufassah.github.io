@@ -6,7 +6,7 @@ function connClick() {
 
 function hayesClick(){
  document.getElementById("content").innerHTML = 
-  '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/hayes-layout.jpg" class="mainBio img-responsive"></div><div class="bio-div"><div class="bio-p"><img src="../images/hayes-bio.jpg" class="img-responsive"></div><div class="links-container"><div class="linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/elitehayestv">elitehayestv</a></div><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/elitehayess">elitehayess</a></div></div></div></div>';
+  '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/hayes-header.jpg" class="mainBio img-responsive"></div><div class="bio-div"><div class="bio-p"><img src="../images/hayes-bio.jpg" class="img-responsive"></div><div class="links-container"><div class="linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/elitehayestv">elitehayestv</a></div><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/elitehayess">elitehayess</a></div></div></div></div>';
 }
 
 function genesisClick(){
@@ -21,11 +21,11 @@ function snuggsClick(){
 
 function cynClick(){
   document.getElementById("content").innerHTML = 
-    '<div class="picCenter"><img src="cyntemp.jpg" class="img-responsive mainBio"></div><div id="bio" class="transbox"><h1>CynKZBH</h1><p class="smallBio">Cinema 4D Designs</p><div class="links-container"><div class="linkage"><h2>Twitter:</h2><a href="https://twitter.com/CynKZBH">CynKZBH</a></div></div></div>';
+    '<div class="picCenter"><img src="cyn-header.jpg" class="img-responsive mainBio"></div><div id="bio" class="transbox"><h1>CynKZBH</h1><p class="smallBio">Cinema 4D Designs</p><div class="links-container"><div class="linkage"><h2>Twitter:</h2><a href="https://twitter.com/CynKZBH">CynKZBH</a></div></div></div>';
 }
 function mufassahClick(){
    document.getElementById("content").innerHTML = 
-    '<div class="picCenter"><img src="mufassahAvi.JPG" class="img-responsive mainBio"></div><div id="bio" class="transbox"><h1>Mufassah</h1><p class="smallBio">Hello good sirs, my name is Austin but probably better known as Mufassah. I am 22 years old and am a player and the web designer for Heaven Clan. I enjoy the competitive spirit of video games and look forward to what this game and clan can bring to the future of eSports!</p><div class="links-container"><div class="linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/mufassah">Mufassah</a></div><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/MufassahTV">MufassahTV</a></div></div></div>';
+    '<div class="picCenter"><img src="mufassah-header.JPG" class="img-responsive mainBio"></div><div id="bio" class="transbox"><h1>Mufassah</h1><p class="smallBio">Hello good sirs, my name is Austin but probably better known as Mufassah. I am 22 years old and am a player and the web designer for Heaven Clan. I enjoy the competitive spirit of video games and look forward to what this game and clan can bring to the future of eSports!</p><div class="links-container"><div class="linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/mufassah">Mufassah</a></div><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/MufassahTV">MufassahTV</a></div></div></div>';
 }
 
 function misaClick(){
@@ -38,3 +38,7 @@ function heavenClick(){
     '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/heaven-roster.jpg" class="mainBio img-responsive"></div><div class="bio-div"><div class="bio-p"><p>This is the home for Heaven Clan, a strong competitive Destiny team full of a number of talented players. We compete with many of the top teams and players around the world and we are only just getting started. Join us in our path to eternal glory, or be smote.</p></div><div class="links-container"><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/HeavenClan_">Heaven Clan</a></div></div></div></div>';
 }
  
+function churrClick(){
+   document.getElementById("content").innerHTML = 
+    '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/churr-header.jpg" class="mainBio img-responsive"></div><div class="bio-div"><div class="bio-p"><p>Churr needs to give me info.</p></div><div class="links-container"><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/HeavenClan_">Heaven Clan</a></div></div></div></div>';
+}
