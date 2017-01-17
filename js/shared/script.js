@@ -42,3 +42,11 @@ function churrClick(){
    document.getElementById("content").innerHTML = 
     '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/churr-header.jpg" class="mainBio img-responsive"></div><div class="bio-div"><div class="bio-p"><p>Churr needs to give me info.</p></div><div class="links-container"><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/HeavenClan_">Heaven Clan</a></div></div></div></div>';
 }
+function contrastClick(){
+   document.getElementById("content").innerHTML = 
+    '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/churr-header.jpg" class="mainBio img-responsive"></div><div class="bio-div"><div class="bio-p"><p>Contrast needs to give me info.</p></div><div class="links-container"><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/HeavenClan_">Heaven Clan</a></div></div></div></div>';
+}
+function oscarClick(){
+   document.getElementById("content").innerHTML = 
+    '<div id="bio" class="transbox"><div class="picCenter"><img src="../images/oscar-header.jpg" class="mainBio img-responsive"></div><div class="bio-div"><div class="bio-p"><p>Oscar needs to give me info.</p></div><div class="links-container"><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/HeavenClan_">Heaven Clan</a></div></div></div></div>';
+}
