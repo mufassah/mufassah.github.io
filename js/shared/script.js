@@ -25,7 +25,7 @@ function cynClick(){
 }
 function mufassahClick(){
    document.getElementById("content").innerHTML = 
-    '<div class="picCenter"><img src="../images/mufassah-header.JPG" class="img-responsive mainBio"></div><div id="bio" class="transbox"><h1>Mufassah</h1><p class="smallBio">Hello good sirs, my name is Austin but probably better known as Mufassah. I am 22 years old and am a player and the web designer for Heaven Clan. I enjoy the competitive spirit of video games and look forward to what this game and clan can bring to the future of eSports!</p><div class="links-container"><div class="linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/mufassah">Mufassah</a></div><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/MufassahTV">MufassahTV</a></div></div></div>';
+    '<div class="picCenter"><img src="../images/mufassah-header.jpg" class="img-responsive mainBio"></div><div id="bio" class="transbox"><h1>Mufassah</h1><p class="smallBio">Hello good sirs, my name is Austin but probably better known as Mufassah. I am 22 years old and am a player and the web designer for Heaven Clan. I enjoy the competitive spirit of video games and look forward to what this game and clan can bring to the future of eSports!</p><div class="links-container"><div class="linkage"><h2>Twitch:</h2><a href="https://www.twitch.tv/mufassah">Mufassah</a></div><div class="linkage"> <h2>Twitter:</h2><a href="https://twitter.com/MufassahTV">MufassahTV</a></div></div></div>';
 }
 
 function misaClick(){
