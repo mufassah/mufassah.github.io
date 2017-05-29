@@ -1,6 +1,17 @@
 /* temp background forever*/
+@font-face {
+    font-family: 'NexaBold';
+    src:url('NexaBold.ttf.woff') format('woff'),
+        url('NexaBold.ttf.svg#NexaBold') format('svg'),
+        url('NexaBold.ttf.eot'),
+        url('NexaBold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
 	background-color: black !important;
+    font-family: 'NexaBold' !important;
 }
 .bg-img{
   width:100%;
@@ -189,7 +200,6 @@ body{
 /* from original */
 #navMenu{
 	background-color:#F19305;
-	color:white;
 	padding-top:.2em;
 	padding-bottom:.2em;
 	font-style:Sansation;
@@ -198,6 +208,12 @@ body{
   .nav > li{
 	font-size:14pt;
   }
+.navbar-inverse .navbar-nav>li>a{
+    color:white !important;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: black !important;
+}
 #header{
   margin-top:-10%;
 }
