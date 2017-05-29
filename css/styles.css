@@ -129,6 +129,8 @@ body{
 }
 .body2{
 	margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 .quizContain{
 	width:500px;
@@ -225,17 +227,17 @@ body{
 .imgSelect:hover{
     opacity: 1.0;
     cursor: pointer;
-    max-height: 120px;
-    max-width: 120px;
   }
 .imgSelect2{
-    width: 27em;
-    height: 8em;
-    transition: width .5s, height .5s;
+    width: 13em;
+    height: 13em;
+    border-radius:50%;
+    transition: border-radius .5s;
 }
 .imgSelect2:hover{
-    height: 9em;
-    width: 30em;
+    height: 13em;
+    width: 13em;
+    border-radius: 25%;
     cursor: pointer;
 }
 .mainBio{
@@ -551,6 +553,7 @@ body{
     flex: 1;
     display: flex;
     align-items: center;
+    padding-left: 7em;
 }
 .subclass-container{
     display: flex;
