@@ -18,6 +18,18 @@
 </section>​
 </div>
 
+<script src= "http://player.twitch.tv/js/embed/v1.js"></script>
+<div id="SamplePlayerDivID"></div>
+<script type="text/javascript">
+	var options = {
+		width: 854,
+		height: 480,
+		channel: "AEGabriel",
+	};
+	var player = new Twitch.Player("SamplePlayerDivID", options);
+	player.setVolume(0.5);
+</script>
+
 <script>
 document.getElementById('logo-video').addEventListener('ended',myHandler,false);
 function myHandler(e) {
