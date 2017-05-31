@@ -17,36 +17,29 @@
   <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+        <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
 
 </head>
-<body ng-app="myApp">
-<div class= "nav-full">
+<body ng-app="heavenApp">
+
+<nav class= "nav-full">
 <div class="nav-flex"> 
-<!--
- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" id="navButton" onclick="hideShow()">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-     	</button>
--->
-        <a class="nav-logo" href="#"><img src="../images/Heaven_Logo.png" id="header"></a>
-    <a class="heaven-clan" href="#"><div class="logo-flex"><div class="heaven-yellow">HEAVEN &nbsp;</div><div class="heaven-white">CLAN</div></div></a>
+        <a class="nav-logo" ui-sref="home"><img src="../images/Heaven_Logo.png" id="header"></a>
+    <a class="heaven-clan" ui-sref="home"><div class="logo-flex"><div class="heaven-yellow">HEAVEN &nbsp;</div><div class="heaven-white">CLAN</div></div></a>
     </div>
     <div class="nav-flex2">
-        <div class="nav-items"><a class="nav-link" href="#">TEAM</a></div>
-        <div class="nav-items"><a class="nav-link" href="#">NEWS</a></div>
-        <div class="nav-items"><a class="nav-link" href="#">ABOUT</a></div>
-        <div class="nav-items"><a class="nav-link" href="#">WATCH</a></div>
+        <div class="nav-items"><a class="nav-link" ui-sref="team">TEAM</a></div>
+        <div class="nav-items"><a class="nav-link" ui-sref="news">NEWS</a></div>
+        <div class="nav-items"><a class="nav-link" ui-sref="about">ABOUT</a></div>
+        <div class="nav-items"><a class="nav-link" ui-sref="watch">WATCH</a></div>
     </div>
-  </div>
+  </nav>
+    <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+    <div ui-view></div>
 
- 
-   	<div ng-view></div>
 
-    <script src="js/shared/angular.min.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/controllers/QuizController.js"></script>
-    <script src="js/controllers/QuizController2.js"></script>
-    <script src="js/controllers/QuizController3.js"></script>
-    <script src="js/controllers/QuizController4.js"></script>
+
 </body>
+</html>

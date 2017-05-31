@@ -182,8 +182,12 @@ a.nav-link:active{
 
 
 
-
-
+/*roster.html*/
+.roster-temp{
+    color: white;
+    font-size:2em;
+    text-align: center;
+}
 
 
 
