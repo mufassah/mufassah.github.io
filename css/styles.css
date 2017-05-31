@@ -103,6 +103,10 @@ a.nav-link:active{
 .twitter-feed{
     padding: .2em 3em 2em 3em;
 }
+.timeline-Header, .timeline-footer
+{
+          display:none ;
+}
 .twitter-header-1{
     color: #e5c300;
     text-align: center;
