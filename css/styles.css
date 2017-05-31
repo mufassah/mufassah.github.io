@@ -103,9 +103,8 @@ a.nav-link:active{
 .twitter-feed{
     padding: .2em 3em 2em 3em;
 }
-.timeline-Header, .timeline-footer
-{
-          display:none ;
+.twitter-width{
+    width: 300px;
 }
 .twitter-header-1{
     color: #e5c300;
@@ -138,6 +137,7 @@ a.nav-link:active{
     height: 45em;
     color: white;
     text-align: center;
+    margin-bottom: 2em;
 }
 .main-story{
     flex: 1.5;
