@@ -10,7 +10,10 @@
 }
 /*index.html*/
 body{
-	background-color: #2d2d2d !important;
+    background: url("../images/temp-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'NexaBold' !important;
 }
 .nav-full{
@@ -112,18 +115,80 @@ a.nav-link:active{
     flex: 4.5;
     margin-left: 1em;
     margin-right: 3em;
+    padding: 2em;
     background: rgba(0,0,0,.4);
 }
 .news-header{
     display: flex;
     justify-content: center;
-    margin-top: -2.8em;
+    margin-top: -1.8em;
 }
 .news-header1{
     color: #e5c300;
 }.news-header2{
     color: white;
 }
+.heaven-news-stories{
+    display: flex;
+    height: 45em;
+    color: white;
+    text-align: center;
+}
+.main-story{
+    flex: 1.5;
+    background-image: url("../images/temps/logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.side-stories{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+.inside-stories{
+    flex: 1;
+    display: flex;
+}
+.story-img1{
+    flex: 1;
+    background-image: url("../images/temps/hunger.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.story-img2{
+    flex: 1;
+    background-image: url("../images/temps/warlock.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.story-img3{
+    flex: 1;
+    background-image: url("../images/temps/titan.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.story-img4{
+    flex: 1;
+    background-image: url("../images/temps/traveler.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
