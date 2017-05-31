@@ -36,7 +36,7 @@ body{
     color: white;
 }
 .heaven-clan{
-    font-size:24pt;
+    font-size:1.7em;
     text-decoration: none;
 }
 .heaven-clan:hover{
@@ -47,7 +47,7 @@ body{
     justify-content: flex-end;
     flex:1;
     align-items: center;
-    font-size: 24pt;
+    font-size: 1.7em;
 }
 .nav-flex{
     display: flex !important;
