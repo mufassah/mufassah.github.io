@@ -101,11 +101,12 @@ a.nav-link:active{
     background: rgba(0,0,0,.4);
 }
 .twitter-feed{
-    padding: 3em 3em 3em 3em;
+    padding: .2em 3em 2em 3em;
 }
 .twitter-header-1{
     color: #e5c300;
     text-align: center;
+    margin-bottom: -.5em;
 }
 .twitter-header-2{
     color: white;
