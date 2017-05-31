@@ -20,25 +20,25 @@
 
 </head>
 <body ng-app="myApp">
-<nav class= "navbar navbar-inverse navbar-fixed-top" id="navMenu">
-<div class="container-fluid">
-<div class="navbar-header"> 
+<div class= "nav-full">
+<div class="nav-flex"> 
+<!--
  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" id="navButton" onclick="hideShow()">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
      	</button>
-      <a class="navbar-brand" href="#"><img src="navbarHeaven.JPG" id="header"></a>
+-->
+        <a class="nav-logo" href="#"><img src="../images/Heaven_Logo.png" id="header"></a>
+    <a class="heaven-clan" href="#"><div class="logo-flex"><div class="heaven-yellow">HEAVEN &nbsp;</div><div class="heaven-white">CLAN</div></div></a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#roster">Team</a></li>
-        <li><a href="#news">News</a></li> 
-      </ul>
-      </div>
-   	</div>
-  </nav>
+    <div class="nav-flex2">
+        <div class="nav-items"><a class="nav-link" href="#">TEAM</a></div>
+        <div class="nav-items"><a class="nav-link" href="#roster">NEWS</a></div>
+        <div class="nav-items"><a class="nav-link" href="#news">ABOUT</a></div>
+        <div class="nav-items"><a class="nav-link" href="#news">WATCH</a></div>
+    </div>
+  </div>
 
  
    	<div ng-view></div>
