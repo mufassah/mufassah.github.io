@@ -16,6 +16,10 @@ body{
     background-attachment: fixed;
     font-family: 'NexaBold' !important;
 }
+.ui-view{
+    padding-top: 15em;
+    margin-top: -10em;
+}
 .nav-full{
 	background: rgba(0,0,0,.6);
     height:8em !important;
@@ -24,7 +28,27 @@ body{
     display:flex;
     color: white;
   }
-
+a.nav-logo{
+    
+}
+a.nav-logo:link {
+  /* Applies to all visited links */
+  text-decoration:  none;
+/*  color: white;*/
+  } 
+a.nav-logo:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+/*  color: white;*/
+  } 
+a.nav-logo:hover{
+    text-decoration: none;
+    color: #e5c300;
+}
+a.nav-logo:active{
+    text-decoration: none;
+    color: #e5c300;
+}
 #header{
     margin-top: 2em;
     width: 15em;
@@ -85,7 +109,6 @@ a.nav-link:active{
 
 /*landing.html*/
 .landing-container{
-    margin-top: 5em;
     display: flex;
     margin-bottom: 5em;
 }
