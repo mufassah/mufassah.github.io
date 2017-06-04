@@ -189,24 +189,28 @@ a.nav-link:active{
     background-image: url("../images/temps/hunger.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 .story-img2{
     flex: 1;
     background-image: url("../images/temps/warlock.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 .story-img3{
     flex: 1;
     background-image: url("../images/temps/titan.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 .story-img4{
     flex: 1;
     background-image: url("../images/temps/traveler.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 .heaven-news-stories{
     display: flex;
@@ -220,6 +224,7 @@ a.nav-link:active{
     background-image: url("../images/temps/hunger.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     margin: 1em;
 }
 .news-story-img2{
@@ -227,6 +232,7 @@ a.nav-link:active{
     background-image: url("../images/temps/warlock.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     margin: 1em;
 }
 .news-story-img3{
@@ -234,6 +240,7 @@ a.nav-link:active{
     background-image: url("../images/temps/titan.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     margin: 1em;
 }
 .news-story-img4{
@@ -241,6 +248,7 @@ a.nav-link:active{
     background-image: url("../images/temps/traveler.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     margin: 1em;
 }
 
