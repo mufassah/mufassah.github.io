@@ -1,4 +1,4 @@
-var routerApp = angular.module('heavenApp', ['ui.router']);
+var routerApp = angular.module('heavenApp', ['ui.router', 'ngAnimate']);
 
 routerApp.config(function($stateProvider, $urlRouterProvider) {
 

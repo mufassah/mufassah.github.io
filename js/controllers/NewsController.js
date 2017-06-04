@@ -16,5 +16,14 @@ routerApp.controller('NewsController', ['$scope', '$http', function($scope, $htt
             $scope.selector = $scope.selector + updown;
         console.log($scope.selector);
     }
+    $scope.skipTo = function (skipIndex){
+        if(skipIndex > $scope.selector){
+            console.log('slide left');
+        }
+        else{
+            console.log('slide right');
+        }
+        $scope.selector = skipIndex;
+    }
     
 }]);
