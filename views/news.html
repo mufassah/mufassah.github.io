@@ -1,1 +1,55 @@
-<div class="roster-temp">This is a news page</div>
+<div ng-controller="NewsController">
+
+    <div class="news-slideshow">
+        <div class="slideshow-item" ng-repeat="item in slideItems">          
+            <div ng-show="selector == $index">
+            <img src="../images/temps/{{item.image}}" class="item-background">
+            </div>
+        </div>
+        <div class="selectors">
+            <div ng-click="switchImage(-1)">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            </div>
+            <div ng-repeat="item in slideItems">
+                <span class="glyphicon glyphicon-minus" ng-class="selector === $index ? 'selected' : '' "></span>
+            </div>
+            <div  ng-click="switchImage(1)">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            </div>
+        </div>
+    </div>
+    <div class="straight-news">
+    <div class="news-news-container">
+        <div class="news-header">
+            <h2 class="news-header1">HEAVEN &nbsp;</h2>
+            <h2 class="news-header2">NEWS</h2>
+        </div>
+        <div class="heaven-news-stories">
+            <div class="side-stories">
+                <div class="inside-stories">
+                    <div class="news-story-img1">
+                        <h3>news 1</h3>
+                    </div>
+                    <div class="news-story-img2">
+                        <h3>news 2</h3>
+                    </div>
+                    <div class="news-story-img1">
+                        <h3>news 3</h3>
+                    </div>
+                </div>
+                <div class="inside-stories">
+                    <div class="news-story-img3">
+                        <h3>news 4</h3>
+                    </div>
+                    <div class="news-story-img4">
+                        <h3>news 5</h3>
+                    </div>
+                    <div class="news-story-img3">
+                        <h3>news 6</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

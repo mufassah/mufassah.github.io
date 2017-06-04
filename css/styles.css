@@ -10,7 +10,7 @@
 }
 /*index.html*/
 body{
-    background: url("../images/temp-background.jpg");
+    background: url("../images/temps/temp-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -257,8 +257,46 @@ a.nav-link:active{
 
 
 
-
-
+/*news.html*/
+.news-slideshow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.selectors{
+    text-align: center;
+    display: flex;
+    margin-top: -5em;
+}
+.selectors span{
+    color: white;
+    font-size: 2em;
+}
+.selectors span:hover{
+    cursor: pointer;
+    color: #e5c300;
+}
+.item-background{
+    width: 80em;
+}
+.selected{
+    color: #e5c300 !important;
+    background-color: transparent!important;
+}
+.straight-news{
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
+}
+.news-news-container{
+    display: flex;
+    flex-direction: column;
+    width:100em;
+    margin-left: 1em;
+    margin-right: 3em;
+    padding: 0em 2em;
+    background: rgba(0,0,0,.4);
+}
 
 
 
