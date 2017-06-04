@@ -263,6 +263,13 @@ a.nav-link:active{
     flex-direction: column;
     align-items: center;
 }
+span.glyphicon-minus{
+    font-family: inherit;
+    font-size: 5em !important;
+}
+.glyph-slide{
+    margin-top: -1.5em;
+}
 .selectors{
     text-align: center;
     display: flex;

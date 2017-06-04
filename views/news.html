@@ -10,7 +10,7 @@
             <div ng-click="switchImage(-1)">
             <span class="glyphicon glyphicon-chevron-left"></span>
             </div>
-            <div ng-repeat="item in slideItems">
+            <div ng-repeat="item in slideItems" class="glyph-slide">
                 <span class="glyphicon glyphicon-minus" ng-class="selector === $index ? 'selected' : '' "></span>
             </div>
             <div  ng-click="switchImage(1)">
