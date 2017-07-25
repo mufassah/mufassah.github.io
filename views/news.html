@@ -1,23 +1,17 @@
 <div ng-controller="NewsController">
 
-    <div class="news-slideshow">
-        <div class="slideshow-item" ng-repeat="item in slideItems">          
-            <div ng-show="selector == $index">
-            <img src="../images/temps/{{item.image}}" class="item-background">
-            </div>
-        </div>
-        <div class="selectors">
-            <div ng-click="switchImage(-1)">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            </div>
-            <div ng-repeat="item in slideItems" class="glyph-slide">
-                <span class="glyphicon glyphicon-minus" ng-class="selector === $index ? 'selected' : '' " ng-click="skipTo($index)"></span>
-            </div>
-            <div  ng-click="switchImage(1)">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            </div>
-        </div>
-    </div>
+    <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="../images/temps/hunger.png"></a>
+    <a class="carousel-item" href="#two!"><img src="../images/temps/warlock.png"></a>
+    <a class="carousel-item" href="#three!"><img src="../images/temps/titan.png"></a>
+    <a class="carousel-item" href="#four!"><img src="../images/temps/traveler.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="../images/temps/class-image.jpg"></a>
+  </div>
+    <script>
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+</script>
     <div class="straight-news">
     <div class="news-news-container">
         <div class="news-header">
@@ -53,3 +47,5 @@
     </div>
     </div>
 </div>
+
+

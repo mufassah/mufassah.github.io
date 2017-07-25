@@ -266,6 +266,10 @@ a.nav-link:active{
 
 
 /*news.html*/
+.carousel .carousel-item{
+    width: 40em!important;
+    height: 25em !important;
+}
 .news-slideshow{
     display: flex;
     flex-direction: column;
